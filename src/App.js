@@ -1,6 +1,7 @@
 import AboutMe from './AboutMe/AboutMe';
 import './App.css';
 import Header from './Header/Header';
+import Sidebar from './Sidebar/Sidebar';
 import ToTopButton from './ToTopButton/ToTopButton';
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       {/* Obecne stanowisko */}
       {/* Zainteresowania */}
       {/* Kontakt FB, Linkedin, Mail */}
-      {/* Panel boczny Fb, Mail, Linkedin */}
+      <Sidebar />
       <ToTopButton />
     </div>
   );
