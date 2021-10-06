@@ -1,12 +1,19 @@
-
+import AboutMe from './AboutMe/AboutMe';
 import './App.css';
+import Header from './Header/Header';
+import ToTopButton from './ToTopButton/ToTopButton';
 
 function App() {
   return (
     <div className="App">
-      {/* O mnie */}
+      <Header />
+      <AboutMe />
       {/* Umiejętności */}
-      
+      {/* Kursy */}
+      {/* Obecne stanowisko */}
+      {/* Zainteresowania */}
+      {/* Kontakt FB, Linkedin, Mail */}
+      <ToTopButton />
     </div>
   );
 }
