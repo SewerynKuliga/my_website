@@ -10,9 +10,9 @@ function App() {
     <div className="App">
       <Header />
       <AboutMe />
+      {/* Obecne stanowisko */}
       {/* Umiejętności */}
       {/* Kursy */}
-      {/* Obecne stanowisko */}
       {/* Zainteresowania */}
       {/* Kontakt FB, Linkedin, Mail */}
       <Sidebar />

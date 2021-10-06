@@ -17,7 +17,6 @@ function ToTopButton() {
         window.scrollTo({
             top: 0,
             behavior: "smooth"
-
         });
     };
 
@@ -26,13 +25,14 @@ function ToTopButton() {
     }, []);
 
     return (
-        <>
+        < >
             {isVisible &&
                 <Container
                     onClick={scrollToTop}
                     title="Przewiń stronę do góry"
                 >
                     <ArrowUpwardIcon style={{ fontSize: '4rem' }} />
+                    <p>up</p>
                 </Container>}
         </>
     )
@@ -51,11 +51,20 @@ const Container = styled.div`
     right: 2rem;
     cursor: pointer;
     border-radius: 0.8rem;
-    transition-duration: 1s;
+    box-shadow: 0 0.7rem 1rem rgb(228,230,235);
+    transition-duration: 0.5s;
     text-align: center;
     padding-top: 1rem;
-    &:hover {
+    z-index: 5;
+    p {
+        visibility: hidden;
+    }
+    &:hover  {
         color: red;
         height: 6rem;
+        box-shadow: 0 0.5rem 1rem rgba(255, 0, 0, 0.616);
+    }
+    &:hover > p {
+        visibility: visible;
     }
 `
