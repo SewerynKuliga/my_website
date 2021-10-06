@@ -17,6 +17,7 @@ function ToTopButton() {
         window.scrollTo({
             top: 0,
             behavior: "smooth"
+
         });
     };
 
@@ -43,14 +44,18 @@ const Container = styled.div`
     display: block;
     position: fixed;
 
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     background-color: rgb(228,230,235);
     bottom: 2rem;
     right: 2rem;
     cursor: pointer;
     border-radius: 0.8rem;
-    /* &:hover {
+    transition-duration: 1s;
+    text-align: center;
+    padding-top: 1rem;
+    &:hover {
         color: red;
-    } */
+        height: 6rem;
+    }
 `
