@@ -13,6 +13,7 @@ function App() {
       {/* Obecne stanowisko */}
       {/* Zainteresowania */}
       {/* Kontakt FB, Linkedin, Mail */}
+      {/* Panel boczny Fb, Mail, Linkedin */}
       <ToTopButton />
     </div>
   );

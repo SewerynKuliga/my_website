@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-
-
-
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
 function ToTopButton() {
     const [isVisible, setIsVisible] = useState(false);
@@ -28,12 +26,13 @@ function ToTopButton() {
 
     return (
         <>
-            {isVisible && 
-            <Container
-                onClick={scrollToTop}
-            >
-                Przewiń do góry
-            </Container>}
+            {isVisible &&
+                <Container
+                    onClick={scrollToTop}
+                    title="Przewiń stronę do góry"
+                >
+                    <ArrowUpwardIcon style={{ fontSize: '4rem' }} />
+                </Container>}
         </>
     )
 }
@@ -44,14 +43,14 @@ const Container = styled.div`
     display: block;
     position: fixed;
 
-    width: 6rem;
+    width: 4rem;
     height: 4rem;
-    background-color: red;
-    bottom: 1.5rem;
-    right: 1.5rem;
+    background-color: rgb(228,230,235);
+    bottom: 2rem;
+    right: 2rem;
     cursor: pointer;
-
-    &:hover {
+    border-radius: 0.8rem;
+    /* &:hover {
         color: red;
-    }
+    } */
 `
