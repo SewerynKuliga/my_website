@@ -29,7 +29,7 @@ function ToTopButton() {
             {isVisible &&
                 <Container
                     onClick={scrollToTop}
-                    title="Przewiń stronę do góry"
+                    // title="Przewiń stronę do góry"
                 >
                     <ArrowUpwardIcon style={{ fontSize: '4rem' }} />
                     <p>up</p>

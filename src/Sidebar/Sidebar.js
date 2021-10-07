@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import Link from '@mui/material/Link'
+import Link from '@mui/material/Link';
 
 function Sidebar() {
     return (
@@ -32,7 +32,7 @@ function Sidebar() {
                     target="_blank"
                 >
                     <EmailIcon
-                        style={{ fontSize: '3rem', padding: '0.4rem', color: "rgb(211,45,44)" }}
+                        style={{ fontSize: '3rem', padding: '0.4rem', color: "rgb(211,45,44)"}}
                         titleAccess="Mail"
                     />
                 </Link>
@@ -83,3 +83,12 @@ const P = styled.p`
     width: 2rem;
     padding-left: 1rem;
 `
+
+// const FingerprintIconBot = withStyles({
+//     root: {
+//         width: 200,
+//         height: 200,
+//         marginLeft: 250,
+//     }
+// })(LinkedInIcon);
+// import { withStyles } from '@material-ui/styles';

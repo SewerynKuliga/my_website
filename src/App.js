@@ -1,5 +1,6 @@
 import AboutMe from './AboutMe/AboutMe';
 import './App.css';
+import Experience from './Experience/Experience';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import Sidebar from './Sidebar/Sidebar';
@@ -10,7 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <AboutMe />
-      {/* Obecne stanowisko */}
+      <Experience />
       {/* Umiejętności */}
       {/* Kursy */}
       {/* Zainteresowania */}

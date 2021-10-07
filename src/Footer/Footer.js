@@ -15,7 +15,7 @@ const Container = styled.div`
     display: block;
     position: relative;
     width: 100%;
-    height: 4rem;
+    height: 3.5rem;
     bottom: 0;
     background-color: #fff;
     text-align: center;
@@ -24,6 +24,6 @@ const Container = styled.div`
     box-shadow: 0 0 1rem rgb(206,208,210);
 `
 const P = styled.p`
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-top: 0.5rem;
 `
