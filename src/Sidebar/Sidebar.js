@@ -32,7 +32,7 @@ function Sidebar() {
                     target="_blank"
                 >
                     <EmailIcon
-                        style={{ fontSize: '3rem', padding: '0.4rem', color: "rgb(211,45,44)"}}
+                        style={{ fontSize: '3rem', padding: '0.4rem', color: "rgb(211,45,44)" }}
                         titleAccess="Mail"
                     />
                 </Link>
