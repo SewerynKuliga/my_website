@@ -11,6 +11,12 @@ function AboutMe() {
                     Od lutego 2021 roku intensywnie uczę się programować w JavaScript oraz React.
                     Tworzę swoje małe projekty oraz pomagam moim znajomym w rozwijaniu swoich firm
                     albo zainteresowań tworząc dla nich strony internetowe.
+                    <br />
+                    Moja przygoda z programowaniem zaczęła się początkiem 2021 roku po wizycie u znajomych programistów na planszówkach. 
+                    Już po pierwszych kursach z HTMLa i CSSa całkowicie popadłem w fascynację tworzenia stron internetowych i aplikacji webowych.
+                    Strona ta jest jednym z projektów, nad którym spędziłem sporo czasu i jest ona moją wizytówką oraz 
+                    projektem, który ma pokazać moje umiejętności Frontendowe.
+                    <br />
                     Programowanie jest dla mnie czymś więcej niż ciekawym zajęciem - jest to moja ucieczka od rzeczywistości
                     do świata kolorowego kodu w Visual Studio Code oraz bycia dumnym z moich prac.
                     Stanowisko Junior React Developera przyjął bym w tym momencie najchętniej, ponieważ zdaję
@@ -18,14 +24,11 @@ function AboutMe() {
                     jako Junior Frontend Developer, gdzie głównym narzędziem używanym przez nasz zespół był React oraz TypeScript.
                     <br />
                     Strona ta jest swego rodzaju wizytówką oraz moją motywacją
-                    do dalszej pracy nad swoimi umijętnościami programisty. Robię wszytko, aby dotrzeć do szerszego grona odbiorców
+                    do dalszej pracy nad swoimi umiejętnościami programisty. Robię wszytko, aby dotrzeć do szerszego grona odbiorców
                     co pozwoli mi rozwinąć skrzydła. Staram się rozwijać, być na bieżąco z wszelkimi nowinkami technologicznymi 
-                    śledząc kanały programistów JS-a na Youtube. Każdą wolną chwilę spędzam na udoskonalaniu siebie, oraz moich projektów.
-                    <br />
-                    Moja przygoda z programowaniem zaczęła się początkiem 2021 roku po wizycie u znajomych programistów na planszówkach. 
-                    Już po pierwszych kursach z HTMLa i CSSa całkowicie popadłem w fascynację tworzenia stron internetowych i aplikacji webowych.
-                    Strona ta jest jednym z projektów, nad którym spędziłem sporo czasu i jest ona moją wizytówką oraz 
-                    projektem, który ma pokazać moje umiejętności Frontendowe.
+                    śledząc kanały programistów JS-a i Reacta na Youtube. Każdą wolną chwilę spędzam na udoskonalaniu siebie, oraz moich projektów.
+                    
+                    
                 </Span>
             </Text>
             <ImgBox>

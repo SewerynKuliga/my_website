@@ -23,12 +23,12 @@ function Experience() {
                     <li>- pomoc innym osobom na stażu w zadaniach</li>
                 </ListOfDuties>
                 <MyOpinion>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pierwsze miejsce pracy, w ktróym mam do czynienia z zespołem 
-                    stażystów, gdzie każdy dba o wzajemne relacje. Poprzez wspieranie się wzajemnie w zadaniach, a także 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pierwsze miejsce pracy, w ktróym mam do czynienia z zespołem
+                    stażystów, gdzie każdy dba o wzajemne relacje. Poprzez wspieranie się wzajemnie w zadaniach, a także
                     poza nimi, atmosfera przybrała postać prawdziwie zgranego zespołu. Wyniosłem z tego stażu ogrom wiedzy
                     (głownie z TypeScript), która poprawiła moje umiejętności pisania zrozumiałego i prostego do analizy
-                    kodu. Przez Code Review z mentorem uświadomiłem sobie czego unikać, co poprawić żeby było bardziej
-                    czytelne, ale też co już robię dobrze. 
+                    kodu. Przez Code Review z mentorem uczyłem się czego unikać w procesie tworzenia aplikacji,
+                    co poprawić żeby było bardziej czytelne, ale też jakie dobre nawyki kodowania mam wyrobione.
                 </MyOpinion>
             </OakfusionCompany>
         </Container>
@@ -55,6 +55,8 @@ const Header = styled.h1`
 const OakfusionCompany = styled.div`
     width: auto;
     margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 0 1rem rgb(206,208,210);
@@ -99,5 +101,5 @@ const ListOfDuties = styled.ul`
 const MyOpinion = styled.p`
     font-size: 1.9rem;
     margin-top: 1rem;
-    line-height: 2.2rem;
+    line-height: 2.5rem;
 `
