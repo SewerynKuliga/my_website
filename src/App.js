@@ -5,6 +5,7 @@ import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import Sidebar from './Sidebar/Sidebar';
 import ToTopButton from './ToTopButton/ToTopButton';
+import Courses from './Courses/Courses'
 
 function App() {
   return (
@@ -13,9 +14,11 @@ function App() {
       <AboutMe />
       <Experience />
       {/* Umiejętności */}
-      {/* Kursy */}
+      <Courses />
       {/* Zainteresowania */}
       {/* Kontakt FB, Linkedin, Mail */}
+      {/* Gra */}
+      {/* Navigacja */}
       <Sidebar />
       <ToTopButton />
       <Footer />

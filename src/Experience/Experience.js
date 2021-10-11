@@ -28,7 +28,7 @@ function Experience() {
                     poza nimi, atmosfera przybrała postać prawdziwie zgranego zespołu. Wyniosłem z tego stażu ogrom wiedzy
                     (głownie z TypeScript), która poprawiła moje umiejętności pisania zrozumiałego i prostego do analizy
                     kodu. Przez Code Review z mentorem uczyłem się czego unikać w procesie tworzenia aplikacji,
-                    co poprawić żeby było bardziej czytelne, ale też jakie dobre nawyki kodowania mam wyrobione.
+                    co poprawić żeby było bardziej czytelne, ale też jakie dobre nawyki kodowania mam już wyrobione.
                 </MyOpinion>
             </OakfusionCompany>
         </Container>
