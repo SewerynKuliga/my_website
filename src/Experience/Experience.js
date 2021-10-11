@@ -5,7 +5,7 @@ import LogoOakfusion from '../Images/LogoOakfusion.PNG'
 
 function Experience() {
     return (
-        <Container>
+        <Container name="me">
             <Header>Doświadczenie zawodowe:</Header>
             <OakfusionCompany>
                 <Img src={LogoOakfusion} alt="Logo Oakfusion" />
@@ -46,7 +46,7 @@ const Container = styled.div`
     margin-right: 5%;
     box-shadow: 0 0 1rem rgb(206,208,210);
     border-radius: 1rem;
-    padding: 3rem;
+    padding: 4rem;
 `
 const Header = styled.h1`
     font-size: 3.5rem;
@@ -93,7 +93,7 @@ const ListOfDuties = styled.ul`
     margin-left: 4rem;
   li {
       font-size: 1.9rem;
-      padding-bottom: 0.4rem;
+      padding-bottom: 0.5rem;
   }
 `
 

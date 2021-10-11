@@ -8,19 +8,35 @@ function Courses() {
             <Header>Kursy:</Header>
             <Course>
                 <CoursName>JavaScript od Podstaw do Eksperta</CoursName>
-                <p>Link:
-                    <a href="https://www.udemy.com/course/javascript-od-podstaw-do-eksperta" target="_blank">
+                <CourseDescription>
+                    <li>- tworzenie animowanej galerii obrazów z miniaturkami</li>
+                    <li>- stworzenie pokazu slajdów</li>
+                    <li>- praca na tablicach</li>
+                    <li>- obsługa Cookies</li>
+                    <li>- walidacja danych w formularzach</li>
+                    <li>- nauka funkcji, instrukcji warunkowych oraz operatorów arytmetycznych </li>
+                </CourseDescription>
+                
+                <Links>Link:&nbsp;
+                    <Link href="https://www.udemy.com/course/javascript-od-podstaw-do-eksperta" target="_blank">
                        www.udemy.com/course/javascript-od-podstaw-do-eksperta
-                    </a>
-                </p>
+                    </Link>
+                </Links>
             </Course>
             <Course>
                 <CoursName>HTML i CSS - poznaj podstawy i zacznij programować!</CoursName>
-                <p>Link: 
-                    <a href="https://www.udemy.com/course/kurs-html-i-css-od-podstaw" target="_blank">
+                <CourseDescription>
+                    <li>- stworzenie własnej strony bazującej na HTML i CSS</li>
+                    <li>- wykorzystywanie obecnie panujących standardów przygotowywania projektów</li>
+                    <li>- nauka Responsive Web Design</li>
+                    <li>- poznanie właściwego pozycjonowania stron</li>
+                    <li>- nauka znaczników elementów liniowych i blokowych</li>
+                </CourseDescription>
+                <Links>Link:&nbsp;
+                    <Link href="https://www.udemy.com/course/kurs-html-i-css-od-podstaw" target="_blank">
                       www.udemy.com/course/kurs-html-i-css-od-podstaw
-                    </a>
-                </p>
+                    </Link>
+                </Links>
             </Course>
         </Container>
     )
@@ -37,7 +53,7 @@ const Container = styled.div`
     margin-right: 5%;
     box-shadow: 0 0 1rem rgb(206,208,210);
     border-radius: 1rem;
-    padding: 3rem;
+    padding: 4rem;
 `
 
 const Header = styled.h1`
@@ -56,4 +72,28 @@ const Course = styled.div`
 
 const CoursName = styled.h1`
     font-size: 2.8rem;
+    margin: 1rem;
+    margin-bottom: 2.5rem;
+`
+
+const CourseDescription = styled.ul`
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+
+    li {
+      font-size: 2rem;
+      padding-bottom: 0.5rem;
+    }
+`
+
+const Links = styled.p`
+    font-size: 1.8rem;
+`
+
+const Link = styled.a`
+    color: black;
+
+    &:hover {
+        color: red;
+    }
 `

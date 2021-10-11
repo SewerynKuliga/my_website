@@ -12,9 +12,9 @@ function AboutMe() {
                     Tworzę swoje małe projekty oraz pomagam moim znajomym w rozwijaniu swoich firm
                     albo zainteresowań tworząc dla nich strony internetowe.
                     <br />
-                    Moja przygoda z programowaniem zaczęła się początkiem 2021 roku po wizycie u znajomych programistów na planszówkach. 
+                    Moja przygoda z programowaniem zaczęła się początkiem 2021 roku po wizycie u znajomych programistów na planszówkach.
                     Już po pierwszych kursach z HTMLa i CSSa całkowicie popadłem w fascynację tworzenia stron internetowych i aplikacji webowych.
-                    Strona ta jest jednym z projektów, nad którym spędziłem sporo czasu i jest ona moją wizytówką oraz 
+                    Strona ta jest jednym z projektów, nad którym spędziłem sporo czasu i jest ona moją wizytówką oraz
                     projektem, który ma pokazać moje umiejętności Frontendowe.
                     <br />
                     Programowanie jest dla mnie czymś więcej niż ciekawym zajęciem - jest to moja ucieczka od rzeczywistości
@@ -25,15 +25,15 @@ function AboutMe() {
                     <br />
                     Strona ta jest swego rodzaju wizytówką oraz moją motywacją
                     do dalszej pracy nad swoimi umiejętnościami programisty. Robię wszytko, aby dotrzeć do szerszego grona odbiorców
-                    co pozwoli mi rozwinąć skrzydła. Staram się rozwijać, być na bieżąco z wszelkimi nowinkami technologicznymi 
+                    co pozwoli mi rozwinąć skrzydła. Staram się rozwijać, być na bieżąco z wszelkimi nowinkami technologicznymi
                     śledząc kanały programistów JS-a i Reacta na Youtube. Każdą wolną chwilę spędzam na udoskonalaniu siebie, oraz moich projektów.
-                    
-                    
+
                 </Span>
             </Text>
             <ImgBox>
-                <Img alt="Zdjęcie Seweryn Kuliga" />   
+                <Img alt="Zdjęcie Seweryn Kuliga" />
             </ImgBox>
+            
         </Container>
     )
 }
@@ -51,7 +51,7 @@ const Container = styled.div`
     margin-right: 5%;
     box-shadow: 0 0 1rem rgb(206,208,210);
     border-radius: 1rem;
-    padding: 3rem;
+    padding: 4rem;
 `
 const Text = styled.div`
     flex: 0.60;

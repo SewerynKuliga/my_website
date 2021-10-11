@@ -6,6 +6,8 @@ import Header from './Header/Header';
 import Sidebar from './Sidebar/Sidebar';
 import ToTopButton from './ToTopButton/ToTopButton';
 import Courses from './Courses/Courses'
+import Skills from './Skills/Skills';
+import Navigation from './Navigation/Navigation';
 
 function App() {
   return (
@@ -13,12 +15,12 @@ function App() {
       <Header />
       <AboutMe />
       <Experience />
-      {/* Umiejętności */}
+      <Skills />
       <Courses />
       {/* Zainteresowania */}
       {/* Kontakt FB, Linkedin, Mail */}
       {/* Gra */}
-      {/* Navigacja */}
+      <Navigation />
       <Sidebar />
       <ToTopButton />
       <Footer />
