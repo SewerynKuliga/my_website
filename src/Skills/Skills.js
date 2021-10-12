@@ -1,9 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import { GrReactjs } from 'react-icons/gr';
-import { SiTypescript, SiJavascript, SiGit } from 'react-icons/si';
+import { SiTypescript, SiJavascript, SiGit, SiGitlab, SiGithub } from 'react-icons/si';
 import { AiFillHtml5, AiOutlineApi } from 'react-icons/ai';
 import { IoLogoCss3 } from 'react-icons/io';
+import { VscGithub } from 'react-icons/vsc'
 
 
 
@@ -14,36 +15,53 @@ function Skills() {
             <SkillsPlace>
                 <Box>
                     <SkillPlace>
-                        <GrReactjs style={{ fontSize: "10rem", color: "" }} />
+                        <GrReactjs style={{ fontSize: "10rem", color: "rgb(97,218,251)" }} />
                         <p>React</p>
                     </SkillPlace>
                     <SkillPlace>
-                        <SiTypescript style={{ fontSize: "10rem", color: "" }} />
+                        <SiTypescript style={{ fontSize: "10rem", color: "rgb(49,120, 198)" }} />
                         <p>TypeScript</p>
                     </SkillPlace>
                     <SkillPlace>
-                        <SiJavascript style={{ fontSize: "10rem", color: "" }} />
+                        <SiJavascript style={{ fontSize: "10rem", color: "rgb(247,223,30)" }} />
                         <p>JavaScript</p>
                     </SkillPlace>
                 </Box>
                 <Box >
                     <SkillPlace>
-                        <AiFillHtml5 style={{ fontSize: "10rem", color: "" }} />
+                        <AiFillHtml5 style={{ fontSize: "10rem", color: "rgb(221,75,37)" }} />
                         <p>HTML</p>
                     </SkillPlace>
                     <SkillPlace>
-                        <IoLogoCss3 style={{ fontSize: "10rem", color: "" }} />
+                        <IoLogoCss3 style={{ fontSize: "10rem", color: "rgb(21,119,180)" }} />
                         <p>CSS</p>
                     </SkillPlace>
                     <SkillPlace>
-                        <AiOutlineApi style={{ fontSize: "10rem" }} />
+                        <AiOutlineApi style={{ fontSize: "10rem", color: "rgb(172,11,22)" }} />
                         <p>API</p>
                     </SkillPlace>
                 </Box>
                 <Box>
                     <SkillPlace>
-                        <SiGit style={{ fontSize: "10rem" }} />
+                        <SiGit style={{ fontSize: "10rem", color: "rgb(230,64,32)" }} />
                         <p>Git</p>
+
+                        <Box>
+                            <SkillPlace>
+                                <SiGitlab style={{ fontSize: "10rem", color: "rgb(219,65,40)" }} />
+                                <p>GitLab</p>
+                            </SkillPlace>
+
+                            <SkillPlace>
+                                <SiGithub style={{ fontSize: "10rem", color: "rgb(26,29,33)" }} />
+                                <p>GitHub</p>
+                            </SkillPlace>
+
+                            <SkillPlace>
+                                <VscGithub style={{ fontSize: "10rem", color: "rgb(88,39,127)" }} />
+                                <p>GitDesktop</p>
+                            </SkillPlace>
+                        </Box>
                     </SkillPlace>
                 </Box>
             </SkillsPlace>
@@ -79,7 +97,7 @@ const Box = styled.div`
 
 const SkillPlace = styled.div`
     width: 15rem;
-    height: 12rem;
+    height: auto;
     margin-top: 2rem;
     margin-left: 3rem;
     margin-right: 3rem;
