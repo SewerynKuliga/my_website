@@ -52,6 +52,7 @@ const Container = styled.div`
     box-shadow: 0 0 1rem rgb(206,208,210);
     border-radius: 1rem;
     padding: 4rem;
+    text-align: center;
 `
 const Text = styled.div`
     flex: 0.60;

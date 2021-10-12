@@ -8,6 +8,7 @@ import ToTopButton from './ToTopButton/ToTopButton';
 import Courses from './Courses/Courses'
 import Skills from './Skills/Skills';
 import Navigation from './Navigation/Navigation';
+import Contact from './Contact/Contact';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <Skills />
       <Courses />
       {/* Zainteresowania */}
-      {/* Kontakt FB, Linkedin, Mail */}
+      <Contact />
       {/* Gra */}
       <Navigation />
       <Sidebar />
