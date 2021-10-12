@@ -22,7 +22,7 @@ function Main() {
           <Courses />
           <MyInterests />
           <Contact />
-          <Game />
+          {/* <Game /> */}
           <Navigation />
           <Sidebar />
           <ToTopButton />

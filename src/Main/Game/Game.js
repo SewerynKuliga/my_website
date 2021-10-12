@@ -23,7 +23,11 @@ function Game() {
                     Pierwszy poziom jest najłatwiejszy, w następnym i kolejnych wzrasta poziom trudności.<br />
                     Więcej niestety zdradzić nie mogę.
                 </P>
-                <LetsPlay variant="outlined" color="error" onClick={handleClick} >
+                <LetsPlay 
+                variant="outlined" 
+                color="error" 
+                onClick={handleClick}
+                style={{fontSize: "2.5rem"}} >
                     ZAGRAJ!
                 </LetsPlay>
             </FirstGame>
