@@ -7,7 +7,7 @@ function AboutMe() {
             <Text>
                 <Header>O Mnie:</Header>
                 <Span>
-                    Mam na imię Seweryn, mam 23 lata.
+                    Mam na imię Seweryn, mam 23 lata. <br />
                     Od lutego 2021 roku intensywnie uczę się programować w JavaScript oraz React.
                     Tworzę swoje małe projekty oraz pomagam moim znajomym w rozwijaniu swoich firm
                     albo zainteresowań tworząc dla nich strony internetowe.

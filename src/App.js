@@ -9,6 +9,7 @@ import Courses from './Courses/Courses'
 import Skills from './Skills/Skills';
 import Navigation from './Navigation/Navigation';
 import Contact from './Contact/Contact';
+import MyInterests from './MyInterests/MyInterests';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <Experience />
       <Skills />
       <Courses />
-      {/* Zainteresowania */}
+      <MyInterests />
       <Contact />
       {/* Gra */}
       <Navigation />
