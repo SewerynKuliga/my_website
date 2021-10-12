@@ -82,6 +82,7 @@ const P = styled.p`
     transform: translateY(-110%) translateX(160%);
     width: 2rem;
     padding-left: 1rem;
+    text-align: center;
 `
 
 // const FingerprintIconBot = withStyles({

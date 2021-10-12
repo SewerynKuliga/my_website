@@ -1,32 +1,19 @@
-import AboutMe from './AboutMe/AboutMe';
-import './App.css';
-import Experience from './Experience/Experience';
-import Footer from './Footer/Footer';
-import Header from './Header/Header';
-import Sidebar from './Sidebar/Sidebar';
-import ToTopButton from './ToTopButton/ToTopButton';
-import Courses from './Courses/Courses'
-import Skills from './Skills/Skills';
-import Navigation from './Navigation/Navigation';
-import Contact from './Contact/Contact';
-import MyInterests from './MyInterests/MyInterests';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Main from "./Main/Main"
+import FirstGame from './FirstGame/FirstGame';
+import "./App.css"
+
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <AboutMe />
-      <Experience />
-      <Skills />
-      <Courses />
-      <MyInterests />
-      <Contact />
-      {/* Gra */}
-      <Navigation />
-      <Sidebar />
-      <ToTopButton />
-      <Footer />
-    </div>
+    <>
+      <Router>
+        <Switch>
+          <Main path="/" exact component="Main" />
+          <FirstGame path="/FirstGame" exact component="FirstGame" />
+        </Switch>
+      </Router>
+    </>
   );
 }
 
