@@ -5,8 +5,8 @@ import LogoOakfusion from '../Images/LogoOakfusion.PNG'
 
 function Experience() {
     return (
-        <Container name="me">
-            <Header>Doświadczenie zawodowe:</Header>
+        <Container >
+            <Header>Doświadczenie zawodowe <span style={{color: "red"}}><b>:</b> </span></Header>
             <OakfusionCompany>
                 <Img src={LogoOakfusion} alt="Logo Oakfusion" />
                 <Position>Junior Frontend Developer</Position><br />

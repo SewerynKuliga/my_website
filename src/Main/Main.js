@@ -18,10 +18,10 @@ function Main() {
           <Header />
           <AboutMe />
           <Experience />
-          <Skills />
+          {/* <Skills /> */}
           <Courses />
           <MyInterests />
-          <Contact />
+          {/* <Contact /> */}
           {/* <Game /> */}
           <Navigation />
           <Sidebar />

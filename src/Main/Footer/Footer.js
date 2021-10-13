@@ -4,7 +4,7 @@ import styled from 'styled-components';
 function Footer() {
     return (
         <Container>
-            <P>copyright &copy;2021 Seweryn Kuliga</P>
+            <P>copyright &copy;2021 Seweryn <span style={{color: "red"}}>Kuliga</span></P>
         </Container>
     )
 }

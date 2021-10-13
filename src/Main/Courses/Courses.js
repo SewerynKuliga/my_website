@@ -5,7 +5,7 @@ import styled from 'styled-components';
 function Courses() {
     return (
         <Container>
-            <Header>Kursy:</Header>
+            <Header>Kursy<span style={{color: "red"}}><b>:</b> </span></Header>
             <Course>
                 <CoursName>JavaScript od Podstaw do Eksperta</CoursName>
                 <CourseDescription>

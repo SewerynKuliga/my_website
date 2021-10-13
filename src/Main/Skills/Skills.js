@@ -11,7 +11,7 @@ import { VscGithub } from 'react-icons/vsc'
 function Skills() {
     return (
         <Container>
-            <Header>Umiejętności:</Header> <br />
+            <Header>Umiejętności<span style={{color: "red"}}><b>:</b> </span></Header> <br />
             <SkillsPlace>
                 <Box>
                     <SkillPlace>

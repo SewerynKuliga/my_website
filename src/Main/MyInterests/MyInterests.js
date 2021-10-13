@@ -5,7 +5,7 @@ import styled from 'styled-components';
 function MyInterests() {
     return (
         <Container>
-            <Header>Zainteresowania:</Header>
+            <Header>Zainteresowania<span style={{color: "red"}}><b>:</b> </span></Header>
 
             <Interest>
                 <Subtitle>Turystyka motocyklowa</Subtitle>
@@ -35,8 +35,8 @@ function MyInterests() {
                     klarnet, ale z biegiem czasu perkusja, gitara zwykła oraz basowa, jak również harmonijka ustna go wyparły.
                     Niestety życie w bloku mocno ogranicza moją pasję z wiadomych powodów.
                     <br /> <br />
-                    Muzyka towarzyszyła i towarzyszy mi zawsze.
-                    Czy to w samochodzie, czy przy gotowaniu, czy nawet przy pisaniu kodu do projektów.
+                    Muzyka towarzyszyła i towarzyszy mi <u>ZAWSZE</u>.
+                    Czy to podczas jazdy samochodem, czy przy gotowaniu, czy nawet przy pisaniu kodu do projektów.
                 </Text>
             </Interest>
             <Interest>

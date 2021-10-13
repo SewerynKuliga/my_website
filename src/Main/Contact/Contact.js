@@ -9,7 +9,7 @@ import Link from '@mui/material/Link';
 function Contact() {
     return (
         <Container>
-            <Header>Kontakt:</Header>
+            <Header>Kontakt<span style={{color: "red"}}><b>:</b> </span></Header>
             <Box>
                 <Contacts>
                     <Link

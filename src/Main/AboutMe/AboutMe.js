@@ -5,7 +5,7 @@ function AboutMe() {
     return (
         <Container>
             <Text>
-                <Header>O Mnie:</Header>
+                <Header><span style={{color: "red"}}>O Mnie</span>:</Header>
                 <Span>
                     Mam na imię Seweryn, mam 23 lata. <br />
                     Od lutego 2021 roku intensywnie uczę się programować w JavaScript oraz React.
