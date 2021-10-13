@@ -70,6 +70,16 @@ const Container = styled.div`
         transform: translateX(0%);
         transition-duration: 0.3s;
     }
+
+    @media screen and (max-width: 1500px){
+        bottom: 7rem;
+    }
+    @media screen and (max-width: 820px){
+        bottom: 3rem;
+    }
+    @media screen and (max-width: 650px){
+        bottom: 1.5rem;
+    }
 `
 
 const Icons = styled.div`

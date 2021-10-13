@@ -5,7 +5,7 @@ function AboutMe() {
     return (
         <Container>
             <Text>
-                <Header><span style={{color: "red"}}>O Mnie</span>:</Header>
+                <Header><span style={{ color: "red" }}>O Mnie</span>:</Header>
                 <Span>
                     Mam na imię Seweryn, mam 23 lata. <br />
                     Od lutego 2021 roku intensywnie uczę się programować w JavaScript oraz React.
@@ -33,7 +33,7 @@ function AboutMe() {
             <ImgBox>
                 <Img alt="Zdjęcie Seweryn Kuliga" />
             </ImgBox>
-            
+
         </Container>
     )
 }
@@ -53,6 +53,19 @@ const Container = styled.div`
     border-radius: 1rem;
     padding: 4rem;
     text-align: center;
+    line-height: 2rem;
+    @media screen and (max-width: 1500px){
+
+    }
+    @media screen and (max-width: 820px){
+        text-align: justify;
+        padding: 2rem;
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+    @media screen and (max-width: 650px){
+        padding: 2rem;
+    }
 `
 const Text = styled.div`
     flex: 0.60;
@@ -60,10 +73,33 @@ const Text = styled.div`
 
 const Header = styled.h1`
     font-size: 3.5rem;
+    @media screen and (max-width: 1500px){
+
+    }
+@media screen and (max-width: 820px){
+    font-size: 2.8rem;
+    
+}
+@media screen and (max-width: 650px){
+    font-size: 2.5rem;
+}
 `
 
-const Span = styled.span`
+const Span = styled.p`
     font-size: 2rem;
+    padding-top: 1.5rem;
+
+    @media screen and (max-width: 1500px){
+
+    }
+    @media screen and (max-width: 820px){
+        font-size: 1.8rem;
+    }
+    @media screen and (max-width: 650px){
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding-top: 1rem;
+    }
 `
 const ImgBox = styled.div`
     flex: 0.40;

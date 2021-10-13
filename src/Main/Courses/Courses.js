@@ -54,32 +54,57 @@ const Container = styled.div`
     box-shadow: 0 0 1rem rgb(206,208,210);
     border-radius: 1rem;
     padding: 4rem;
+
+    @media screen and (max-width: 820px){
+        text-align: justify;
+        padding: 2rem;
+        margin-left: 4%;
+        margin-right: 2%;
+    }
 `
 
 const Header = styled.h1`
     font-size: 3.5rem;
+    @media screen and (max-width: 1500px){
+
+    }
+    @media screen and (max-width: 820px){
+    font-size: 2.8rem;
+
+    }
+    @media screen and (max-width: 650px){
+    font-size: 2.5rem;
+    }
 `
 
 const Course = styled.div`
     width: auto;
-    margin-top: 2rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin: 2rem 3rem 0rem 3rem;
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 0 1rem rgb(206,208,210);
+    @media screen and (max-width: 820px){
+        margin: 1rem 0rem 0rem 0.5rem;
+    }
 `
 
 const CoursName = styled.h1`
     font-size: 2.8rem;
     margin: 1rem;
     margin-bottom: 2.5rem;
+    @media screen and (max-width: 820px){
+        font-size: 2.3rem;
+        margin: 0rem;
+        margin-bottom: 1rem;
+    }
 `
 
 const CourseDescription = styled.ul`
     margin-left: 2rem;
     margin-bottom: 2rem;
-
+    @media screen and (max-width: 820px){
+        margin: 0rem 0.5rem 1rem 0.5rem;
+    }
     li {
       font-size: 2rem;
       padding-bottom: 0.5rem;

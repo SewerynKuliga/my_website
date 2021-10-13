@@ -9,7 +9,7 @@ import Link from '@mui/material/Link';
 function Contact() {
     return (
         <Container>
-            <Header>Kontakt<span style={{color: "red"}}><b>:</b> </span></Header>
+            <Header>Kontakt<span style={{ color: "red" }}><b>:</b> </span></Header>
             <Box>
                 <Contacts>
                     <Link
@@ -68,13 +68,21 @@ const Container = styled.div`
 
 const Header = styled.h1`
     font-size: 3.5rem;
+    @media screen and (max-width: 1500px){
+
+}
+@media screen and (max-width: 820px){
+font-size: 2.8rem;
+
+}
+@media screen and (max-width: 650px){
+font-size: 2.5rem;
+}
 `
 const Contacts = styled.div`
     width: 15rem;
     height: auto;
-    margin-top: 3rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin: 2rem 3rem 0rem 3rem;
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 0 1rem rgb(206,208,210);

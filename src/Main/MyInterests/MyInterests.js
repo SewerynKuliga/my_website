@@ -5,7 +5,7 @@ import styled from 'styled-components';
 function MyInterests() {
     return (
         <Container>
-            <Header>Zainteresowania<span style={{color: "red"}}><b>:</b> </span></Header>
+            <Header>Zainteresowania<span style={{ color: "red" }}><b>:</b> </span></Header>
 
             <Interest>
                 <Subtitle>Turystyka motocyklowa</Subtitle>
@@ -47,7 +47,7 @@ function MyInterests() {
                     sobie dogadując jak to powinno się "wyjść z progu". Późniejsza gra Heroes III również nie była tego pozbawiona.
                     Czasy się zmieniły, grafika poszła do przodu, a twórcy gier jak CD Project Red wypuszczają na świat perełkę
                     Wiedźmina 3 - oczywiście wraz z dodatkami. Jestem wielkim fanem tej produckji.
-                    Jeżeli chodzi o gry zespołowe, to aktualnie Liga Legend (League Of Legends) przoduje, ale Rocket Leauge też czasem 
+                    Jeżeli chodzi o gry zespołowe, to aktualnie Liga Legend (League Of Legends) przoduje, ale Rocket Leauge też czasem
                     pojawia się na ekranie.
                 </Text>
             </Interest>
@@ -68,20 +68,38 @@ const Container = styled.div`
     box-shadow: 0 0 1rem rgb(206,208,210);
     border-radius: 1rem;
     padding: 4rem;
+
+    @media screen and (max-width: 820px){
+    text-align: justify;
+    padding: 2rem;
+    margin-left: 4%;
+    margin-right: 2%;
+}
 `
 
 const Header = styled.h1`
     font-size: 3.5rem;
+    @media screen and (max-width: 1500px){
+
+}
+@media screen and (max-width: 820px){
+font-size: 2.8rem;
+
+}
+@media screen and (max-width: 650px){
+font-size: 2.5rem;
+}
 `
 
 const Interest = styled.div`
     width: auto;
-    margin-top: 2rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin: 2rem 3rem 0rem 3rem;
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 0 1rem rgb(206,208,210);
+    @media screen and (max-width: 820px){
+        margin: 1rem 0rem 0rem 0.5rem;
+    }
 `
 
 const Subtitle = styled.h1`
@@ -92,4 +110,7 @@ const Text = styled.p`
     font-size: 2rem;
     padding: 2rem;
     line-height: 2.3rem;
+    @media screen and (max-width: 820px){
+        padding: 1rem;
+    }
 `
