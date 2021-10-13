@@ -5,7 +5,7 @@ import styled from 'styled-components';
 function Courses() {
     return (
         <Container>
-            <Header>Kursy<span style={{color: "red"}}><b>:</b> </span></Header>
+            <Header>Kursy<span style={{ color: "red" }}><b>:</b> </span></Header>
             <Course>
                 <CoursName>JavaScript od Podstaw do Eksperta</CoursName>
                 <CourseDescription>
@@ -16,10 +16,10 @@ function Courses() {
                     <li>- walidacja danych w formularzach</li>
                     <li>- nauka funkcji, instrukcji warunkowych oraz operatorów arytmetycznych </li>
                 </CourseDescription>
-                
+
                 <Links>Link:&nbsp;
                     <Link href="https://www.udemy.com/course/javascript-od-podstaw-do-eksperta" target="_blank">
-                       www.udemy.com/course/javascript-od-podstaw-do-eksperta
+                        Udemy - JavaScript od Podstaw do Eksperta
                     </Link>
                 </Links>
             </Course>
@@ -34,7 +34,7 @@ function Courses() {
                 </CourseDescription>
                 <Links>Link:&nbsp;
                     <Link href="https://www.udemy.com/course/kurs-html-i-css-od-podstaw" target="_blank">
-                      www.udemy.com/course/kurs-html-i-css-od-podstaw
+                        Udemy - HTML i CSS od podstaw
                     </Link>
                 </Links>
             </Course>
@@ -65,15 +65,12 @@ const Container = styled.div`
 
 const Header = styled.h1`
     font-size: 3.5rem;
-    @media screen and (max-width: 1500px){
-
-    }
+    
     @media screen and (max-width: 820px){
-    font-size: 2.8rem;
-
+        font-size: 2.8rem;
     }
     @media screen and (max-width: 650px){
-    font-size: 2.5rem;
+        font-size: 2.5rem;  
     }
 `
 
@@ -83,17 +80,18 @@ const Course = styled.div`
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 0 1rem rgb(206,208,210);
-    @media screen and (max-width: 820px){
-        margin: 1rem 0rem 0rem 0.5rem;
-    }
+        @media screen and (max-width: 820px){
+            margin: 1rem 0rem 0rem 0.5rem;
+        }
 `
 
 const CoursName = styled.h1`
     font-size: 2.8rem;
     margin: 1rem;
     margin-bottom: 2.5rem;
+
     @media screen and (max-width: 820px){
-        font-size: 2.3rem;
+        font-size: 2.0rem;
         margin: 0rem;
         margin-bottom: 1rem;
     }
@@ -102,23 +100,35 @@ const CoursName = styled.h1`
 const CourseDescription = styled.ul`
     margin-left: 2rem;
     margin-bottom: 2rem;
-    @media screen and (max-width: 820px){
-        margin: 0rem 0.5rem 1rem 0.5rem;
-    }
+        @media screen and (max-width: 820px){
+            margin: 0rem 0.5rem 1rem 0.5rem;
+        }
+
     li {
       font-size: 2rem;
       padding-bottom: 0.5rem;
+      line-height: 2.2rem;
+
+        @media screen and (max-width: 650px){
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            margin-bottom: 0.5rem;
+            text-align: left;
+        }
     }
 `
 
 const Links = styled.p`
     font-size: 1.8rem;
+    @media screen and (max-width: 650px){
+            font-size: 1.5rem;
+        }
 `
 
 const Link = styled.a`
     color: black;
-
     &:hover {
         color: red;
     }
+    
 `

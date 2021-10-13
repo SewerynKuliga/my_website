@@ -58,9 +58,7 @@ const Container = styled.div`
 `
 const Header = styled.h1`
     font-size: 3.5rem;
-    @media screen and (max-width: 1500px){
 
-    }
     @media screen and (max-width: 820px){
     font-size: 2.8rem;
 
@@ -89,9 +87,7 @@ const Img = styled.img`
     margin-right: 2rem;
     margin-top: 1rem;
 
-    @media screen and (max-width: 1500px){
 
-    }
     @media screen and (max-width: 820px){
         width: 4rem;
         margin-right: 1rem;
@@ -104,9 +100,7 @@ const Img = styled.img`
 const Position = styled.p`
     font-size: 3rem;
     margin-top: 0.1rem;
-    @media screen and (max-width: 1500px){
 
-    }
     @media screen and (max-width: 820px){
     font-size: 2.5rem;
 
@@ -122,9 +116,7 @@ const Firm = styled.p`
 const WorkTime = styled.p`
     font-size: 1.8rem;
     margin-left: 7rem;
-    @media screen and (max-width: 1500px){
 
-    }
     @media screen and (max-width: 820px){
         margin-left: 0rem;
     }
@@ -151,8 +143,9 @@ const ListOfDuties = styled.ul`
       padding-bottom: 0.5rem;
 
         @media screen and (max-width: 820px){
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             margin-left: 1rem;
+            text-align: left;
         }
   }
 
@@ -163,4 +156,9 @@ const MyOpinion = styled.p`
     font-size: 1.9rem;
     margin-top: 1rem;
     line-height: 2.5rem;
+    @media screen and (max-width: 650px){
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding-top: 1rem;
+    }
 `

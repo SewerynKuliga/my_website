@@ -5,30 +5,38 @@ import Header from './Header/Header';
 import Sidebar from './Sidebar/Sidebar';
 import ToTopButton from './ToTopButton/ToTopButton';
 import Courses from './Courses/Courses'
-import Skills from './Skills/Skills';
+// import Skills from './Skills/Skills';
 import Navigation from './Navigation/Navigation';
-import Contact from './Contact/Contact';
+// import Contact from './Contact/Contact';
 import MyInterests from './MyInterests/MyInterests';
-import Game from './Game/Game';
+// import Game from './Game/Game';
+import styled from 'styled-components';
 
 
 function Main() {
   return (
-    <div>
-          <Header />
-          <AboutMe />
-          <Experience />
-          {/* <Skills /> */}
-          <Courses />
-          <MyInterests />
-          {/* <Contact /> */}
-          {/* <Game /> */}
-          <Navigation />
-          <Sidebar />
-          <ToTopButton />
-          <Footer />
-    </div>
+    <Body>
+      <Header />
+      <AboutMe />
+      <Experience />
+      {/* <Skills /> */}
+      <Courses />
+      <MyInterests />
+      {/* <Contact /> */}
+      {/* <Game /> */}
+      <Navigation />
+      <Sidebar />
+      <ToTopButton />
+      <Footer />
+    </Body>
   );
 }
 
 export default Main;
+
+const Body = styled.div`
+  width: auto;
+  height: auto;
+  min-width: 320px;
+  max-width: 2000px;
+`

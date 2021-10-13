@@ -22,8 +22,14 @@ const Container = styled.div`
     border-top: 1px solid rgb(221,223,226);
     margin-top: 2rem;
     box-shadow: 0 0 1rem rgb(206,208,210);
+        @media screen and (max-width: 650px){
+            height: 2rem;
+        }
 `
 const P = styled.p`
     font-size: 2rem;
     padding-top: 0.5rem;
+    @media screen and (max-width: 650px){
+            font-size: 1.2rem;
+        }
 `

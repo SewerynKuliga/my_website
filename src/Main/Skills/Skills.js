@@ -84,16 +84,14 @@ const Container = styled.div`
 `
 const Header = styled.h1`
     font-size: 3.5rem;
-    @media screen and (max-width: 1500px){
 
-}
-@media screen and (max-width: 820px){
-font-size: 2.8rem;
+    @media screen and (max-width: 820px){
+        font-size: 2.8rem;
 
-}
-@media screen and (max-width: 650px){
-font-size: 2.5rem;
-}
+    }
+    @media screen and (max-width: 650px){
+        font-size: 2.5rem;
+    }
 `
 
 const SkillsPlace = styled.div`

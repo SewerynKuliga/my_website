@@ -46,7 +46,7 @@ const Container = styled.div`
 
     width: 5rem;
     height: 5rem;
-    background-color: rgb(228,230,235);
+    background-color: rgba(228,230,235,0.7);
     bottom: 2rem;
     right: 2rem;
     cursor: pointer;

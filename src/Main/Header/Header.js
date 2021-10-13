@@ -28,6 +28,7 @@ const Container = styled.div`
     display: flex;
     height: 4.5rem;
     width: 100%;
+    min-width: 320px;
     background-color: rgb(255,255,255);
     box-shadow: 0 0.7rem 1rem rgb(221,223,226);
     border-bottom: 1px solid rgb(221,223,226);
@@ -66,7 +67,7 @@ const P = styled.div`
     }
 `
 
-const CV = styled.a`
+const CV = styled.div`
     display: block;
     flex: 0.2;
     margin: 0 auto;
