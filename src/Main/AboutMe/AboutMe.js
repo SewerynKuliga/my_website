@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import MyPhoto from "../Images/MyPhoto.PNG"
 
 
 function AboutMe() {
@@ -24,6 +25,15 @@ function AboutMe() {
                     sobie sprawę, że dużo nauki przede mną, ale solidne podstawy mam już wyuczone poprzez pobyt na stażu
                     jako Junior Frontend Developer, gdzie głównym narzędziem używanym przez nasz zespół był React oraz TypeScript.
                     <br />
+                    &emsp;Każdego dnia staram się być najlepszą wersją samego siebie. Lubię pomagać ludziom i czerpać z tego radość.
+                    Wierzę, że każdy problem da się rozwiązać rozmową, bo czasami widzimy tylko jedną stronę danego problemu.
+                    Konstruktywna krytyka dla mnie to nauka - nowego podejścia, nowego spojrzenia na dany problem i możliwość poprawy
+                    powstałych błędów.
+                    <br />
+                    &emsp;Moją największą wadą jest moja niewiedza do płynnego pisania kodu. Muszę czasami wrócić do danego zagadnienia i
+                    utrwalić go sobie. Staram się szukać odpowiedzi na moje pytanie w różny sposób. Staram się zawsze wybierać najprostsze ale zarazem
+                    najlepsze rozwiązanie dla mojego problemu.
+                    <br />
                     &emsp;Strona ta jest swego rodzaju wizytówką oraz moją motywacją
                     do dalszej pracy nad swoimi umiejętnościami programisty. Robię wszytko, aby dotrzeć do szerszego grona odbiorców
                     co pozwoli mi rozwinąć skrzydła. Staram się rozwijać, być na bieżąco z wszelkimi nowinkami technologicznymi
@@ -32,7 +42,8 @@ function AboutMe() {
                 </Span>
             </Text>
             <ImgBox>
-                <Img  alt="Zdjęcie Seweryn Kuliga" />
+                <Img src={MyPhoto} alt="Zdjęcie Seweryn Kuliga" />
+                <p>Zdjęcie zrobię lepsze. Obiecuję</p>
             </ImgBox>
 
         </Container>
@@ -55,10 +66,11 @@ const Container = styled.div`
     padding: 4rem;
     text-align: center;
     line-height: 2rem;
-
-    @media screen and (max-width: 820px){
+    @media screen and (max-width: 1200px){
         display: block;
         text-align: justify;
+    }
+    @media screen and (max-width: 820px){
         padding: 2rem;
         margin-left: 4%;
         margin-right: 2%;
@@ -68,7 +80,7 @@ const Container = styled.div`
     }
 `
 const Text = styled.div`
-    flex: 0.60;
+    flex: 0.6;
 `
 
 const Header = styled.h1`
@@ -88,6 +100,7 @@ const Span = styled.p`
 
     @media screen and (max-width: 820px){
         font-size: 1.8rem;
+        padding-bottom: 2rem;
     }
     @media screen and (max-width: 650px){
         font-size: 1.5rem;
@@ -96,9 +109,15 @@ const Span = styled.p`
     }
 `
 const ImgBox = styled.div`
-    flex: 0.40;
+    flex: 0.4;
     text-align: center;
 `
 
 const Img = styled.img`
+    width: 80%;
+    margin-top: 10rem;
+
+    @media screen and (max-width: 820px){
+        margin-top: 0;
+    }
 `
