@@ -47,20 +47,20 @@ function Skills() {
                         <p>Git</p>
 
                         <Box>
-                            <SkillPlace>
+                            <SkillPlaceGit>
                                 <SiGitlab style={{ fontSize: "10rem", color: "rgb(219,65,40)" }} />
                                 <p>GitLab</p>
-                            </SkillPlace>
+                            </SkillPlaceGit>
 
-                            <SkillPlace>
+                            <SkillPlaceGit>
                                 <SiGithub style={{ fontSize: "10rem", color: "rgb(26,29,33)" }} />
                                 <p>GitHub</p>
-                            </SkillPlace>
+                            </SkillPlaceGit>
 
-                            <SkillPlace>
+                            <SkillPlaceGit>
                                 <VscGithub style={{ fontSize: "10rem", color: "rgb(88,39,127)" }} />
                                 <p>GitDesktop</p>
-                            </SkillPlace>
+                            </SkillPlaceGit>
                         </Box>
                     </SkillPlace>
                 </Box>
@@ -81,6 +81,11 @@ const Container = styled.div`
     box-shadow: 0 0 1rem rgb(206,208,210);
     border-radius: 1rem;
     padding: 4rem;
+
+    @media screen and (max-width: 870px){
+        padding: 2rem;
+
+    }
 `
 const Header = styled.h1`
     font-size: 3.5rem;
@@ -101,6 +106,10 @@ const SkillsPlace = styled.div`
 `
 const Box = styled.div`
     display: flex;
+    @media screen and (max-width: 720px){
+        display: block;
+        text-align: center;
+    }
 `
 
 const SkillPlace = styled.div`
@@ -118,4 +127,37 @@ const SkillPlace = styled.div`
         margin-top: 0.7rem;
         font-size: 2rem;
     }
+    @media screen and (max-width: 820px){
+        display: block;
+        margin: 1rem 2rem 0rem 2rem;
+        padding: 1rem;
+        
+    }
+`
+
+const SkillPlaceGit = styled.div`
+    width: 15rem;
+    height: auto;
+    margin: 2rem 3rem 0rem 3rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgb(206,208,210);
+    flex: 16.6;
+    text-align: center;
+    &:hover{
+        box-shadow: 0 0.5rem 1rem rgba(0, 128, 251, 0.616);
+    }
+    p {
+        margin-top: 0.7rem;
+        font-size: 2rem;
+    }
+    @media screen and (max-width: 820px){
+        display: block;
+        width: 13rem;
+        margin: 1rem 0rem 0rem 0rem;
+        padding: 1rem;
+        
+        
+    }
+
 `
