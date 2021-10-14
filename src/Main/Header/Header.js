@@ -1,19 +1,19 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
 import styled from 'styled-components';
-import Seweryn_Kuliga_CV from './Files/Seweryn_Kuliga_CV.pdf'
+import CVSewerynKuliga from './Files/CVSewerynKuliga.pdf';
 
 function Header() {
     return (
         <Container>
             <Navigation></Navigation>
-            <P><b>Seweryn <span style={{color: "red"}}>Kuliga</span></b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Junior React Developer</P>
+            <P><b>Seweryn <span style={{ color: "red" }}>Kuliga</span></b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Junior React Developer</P>
             <CV>
-                <Button 
-                style={{ fontSize: "1.8rem", width: "10rem", color: "blue" }} 
-                variant="text" 
-                target="_blank" 
-                download href={Seweryn_Kuliga_CV}
+                <Button
+                    style={{ fontSize: "1.8rem", width: "10rem", color: "blue" }}
+                    variant="text"
+                    target="_blank"
+                    download href={CVSewerynKuliga}
                 >CV</Button>
             </CV>
 

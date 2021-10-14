@@ -9,7 +9,7 @@ import Skills from './Skills/Skills';
 import Navigation from './Navigation/Navigation';
 import Contact from './Contact/Contact';
 import MyInterests from './MyInterests/MyInterests';
-// import Game from './Game/Game';
+import Game from './Game/Game';
 import styled from 'styled-components';
 
 
@@ -23,7 +23,7 @@ function Main() {
       <Courses />
       <MyInterests />
       <Contact />
-      {/* <Game /> */}
+      <Game />
       <Navigation />
       <Sidebar />
       <ToTopButton />

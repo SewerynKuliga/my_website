@@ -82,9 +82,13 @@ const Container = styled.div`
     border-radius: 1rem;
     padding: 4rem;
 
-    @media screen and (max-width: 870px){
+    @media screen and (max-width: 820px){
         padding: 2rem;
-
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+    @media screen and (max-width: 650px){
+        padding: 2rem;
     }
 `
 const Header = styled.h1`

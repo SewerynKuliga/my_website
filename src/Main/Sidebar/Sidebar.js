@@ -93,6 +93,8 @@ const P = styled.p`
     width: 2rem;
     padding-left: 1rem;
     text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 0rem 0.3rem 0.3rem 0rem;
 `
 
 // const FingerprintIconBot = withStyles({

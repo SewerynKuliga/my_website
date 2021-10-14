@@ -1,7 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Button from '@mui/material/Button';
-import { withStyles } from '@material-ui/styles';
 import { useHistory } from "react-router-dom";
 
 
@@ -15,7 +13,7 @@ function Game() {
 
     return (
         <Container>
-            <Header>Gra</Header>
+            <Header>Gra<span style={{ color: "red" }}><b>:</b></span></Header>
             <FirstGame>
                 <P>
                     Zapraszam Cię na stworzoną przeze mnie grę. <br />
@@ -23,11 +21,10 @@ function Game() {
                     Pierwszy poziom jest najłatwiejszy, w następnym i kolejnych wzrasta poziom trudności.<br />
                     Więcej niestety zdradzić nie mogę.
                 </P>
-                <LetsPlay 
-                variant="outlined" 
-                color="error" 
-                onClick={handleClick}
-                style={{fontSize: "2.5rem"}} >
+                <LetsPlay
+                    // onClick={handleClick} 
+                    onClick={() => { alert("Gra w procesie tworzenia. Proszę wrócić później ;)") }}
+                >
                     ZAGRAJ!
                 </LetsPlay>
             </FirstGame>
@@ -41,13 +38,22 @@ const Container = styled.div`
     position: relative;
     width: auto;
     height: auto;
-    margin-top: 5.5rem;
+    margin-top: 1rem;
     background-color: #fff;
     margin-left: 5%;
     margin-right: 5%;
     box-shadow: 0 0 1rem rgb(206,208,210);
     border-radius: 1rem;
     padding: 4rem;
+
+    @media screen and (max-width: 820px){
+        padding: 2rem;
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+    @media screen and (max-width: 650px){
+        padding: 2rem;
+    }
 `
 const Header = styled.h1`
     font-size: 3.5rem;
@@ -70,12 +76,22 @@ const FirstGame = styled.div`
 const P = styled.p`
     font-size: 2rem;
     line-height: 2.3rem;
+    @media screen and (max-width: 650px){
+        font-size: 1.5rem;
+    }
 `
 
-const LetsPlay = withStyles({
-    root: {
-        marginTop: 30,
-        width: 300,
-        height: 50
+const LetsPlay = styled.button`
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 2rem 3rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    background-color: rgb(200,30,30);
+    border-radius: 1rem;
+
+    @media screen and (max-width: 650px){
+        font-size: 2rem;
+        padding: 0.5rem 0.5rem;
     }
-})(Button);
+    `

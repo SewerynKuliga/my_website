@@ -17,7 +17,7 @@ function Contact() {
                         target="_blank"
                     >
                         <LinkedInIcon
-                            style={{ fontSize: '15rem', color: "rgb(0,115,178)" }}
+                            style={{ fontSize: '12rem', color: "rgb(0,115,178)" }}
                             titleAccess="Linkedin"
                         />
                     </Link>
@@ -29,7 +29,7 @@ function Contact() {
                         target="_blank"
                     >
                         <EmailIcon
-                            style={{ fontSize: '15rem', color: "rgb(211,45,44)" }}
+                            style={{ fontSize: '12rem', color: "rgb(211,45,44)" }}
                             titleAccess="Mail"
                         />
                     </Link>
@@ -41,7 +41,7 @@ function Contact() {
                         target="_blank"
                     >
                         <FacebookIcon
-                            style={{ fontSize: '15rem', color: "rgb(12,135,239)" }}
+                            style={{ fontSize: '12rem', color: "rgb(12,135,239)" }}
                             titleAccess="Facebook"
                         />
                     </Link>
@@ -64,6 +64,14 @@ const Container = styled.div`
     box-shadow: 0 0 1rem rgb(206,208,210);
     border-radius: 1rem;
     padding: 4rem;
+    @media screen and (max-width: 820px){
+        padding: 2rem;
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+    @media screen and (max-width: 650px){
+        padding: 2rem;
+    }
 `
 
 const Header = styled.h1`
@@ -94,9 +102,7 @@ const Contacts = styled.div`
     box-shadow: 0 0 1rem rgb(206,208,210);
     text-align: center;
     flex: 0.33;
-    @media screen and (max-width: 920px){
-        margin: 2rem auto;
-    }
+    
     @media screen and (max-width: 820px){
         margin: 2rem auto;
         padding: 1rem;
@@ -107,5 +113,5 @@ const Contacts = styled.div`
 
 
 const Name = styled.h1`
-    font-size: 3rem;
+    font-size: 2.5rem;
 `
