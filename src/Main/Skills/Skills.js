@@ -108,7 +108,6 @@ const Box = styled.div`
     display: flex;
     @media screen and (max-width: 720px){
         display: block;
-        text-align: center;
     }
 `
 
@@ -129,7 +128,7 @@ const SkillPlace = styled.div`
     }
     @media screen and (max-width: 820px){
         display: block;
-        margin: 1rem 2rem 0rem 2rem;
+        margin: 2rem auto;
         padding: 1rem;
         
     }

@@ -79,6 +79,12 @@ font-size: 2.8rem;
 font-size: 2.5rem;
 }
 `
+const Box = styled.div`
+    display: flex;
+    @media screen and (max-width: 720px){
+        display: block;
+    }
+`
 const Contacts = styled.div`
     width: 15rem;
     height: auto;
@@ -88,11 +94,17 @@ const Contacts = styled.div`
     box-shadow: 0 0 1rem rgb(206,208,210);
     text-align: center;
     flex: 0.33;
+    @media screen and (max-width: 920px){
+        margin: 2rem auto;
+    }
+    @media screen and (max-width: 820px){
+        margin: 2rem auto;
+        padding: 1rem;
+        
+    }
 `
 
-const Box = styled.div`
-    display: flex;
-`
+
 
 const Name = styled.h1`
     font-size: 3rem;
