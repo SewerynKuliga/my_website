@@ -18,7 +18,7 @@ function Game() {
                 <P>
                     Zapraszam Cię na stworzoną przeze mnie grę. <br />
                     Jest to gra logiczna, która posiada kilka poziomów.<br />
-                    Pierwszy poziom jest najłatwiejszy, w następnym i kolejnych wzrasta poziom trudności.<br />
+                    Pierwszy poziom jest najłatwiejszy, ale już w następnym i kolejnych wzrasta poziom trudności.<br />
                     Więcej niestety zdradzić nie mogę.
                 </P>
                 <LetsPlay
@@ -76,7 +76,7 @@ const FirstGame = styled.div`
 const P = styled.p`
     font-size: 2rem;
     line-height: 2.3rem;
-    @media screen and (max-width: 650px){
+    @media screen and (max-width: 820px){
         font-size: 1.5rem;
     }
 `
@@ -89,9 +89,10 @@ const LetsPlay = styled.button`
     margin-left: 2rem;
     background-color: rgb(200,30,30);
     border-radius: 1rem;
+    cursor: pointer;
 
     @media screen and (max-width: 650px){
         font-size: 2rem;
         padding: 0.5rem 0.5rem;
     }
-    `
+`

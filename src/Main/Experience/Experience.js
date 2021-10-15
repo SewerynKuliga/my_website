@@ -156,7 +156,7 @@ const MyOpinion = styled.p`
     font-size: 1.9rem;
     margin-top: 1rem;
     line-height: 2.5rem;
-    @media screen and (max-width: 650px){
+    @media screen and (max-width: 820px){
         font-size: 1.5rem;
         line-height: 2rem;
         padding-top: 1rem;

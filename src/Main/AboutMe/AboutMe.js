@@ -8,7 +8,7 @@ function AboutMe() {
         <Container>
             <Text>
                 <Header><span style={{ color: "red" }}>O Mnie</span>:</Header>
-                <Span>
+                <P>
                     &emsp;Mam na imię Seweryn, mam 23 lata. <br />
                     Od lutego 2021 roku intensywnie uczę się programować w JavaScript oraz React.
                     Tworzę swoje małe projekty oraz pomagam moim znajomym w rozwijaniu swoich firm
@@ -39,7 +39,7 @@ function AboutMe() {
                     co pozwoli mi rozwinąć skrzydła. Staram się rozwijać, być na bieżąco z wszelkimi nowinkami technologicznymi
                     śledząc kanały programistów JS-a i Reacta na Youtube. Każdą wolną chwilę spędzam na udoskonalaniu siebie, oraz moich projektów.
 
-                </Span>
+                </P>
             </Text>
             <ImgBox>
                 <Img src={MyPhoto} alt="Zdjęcie Seweryn Kuliga" />
@@ -87,22 +87,15 @@ const Header = styled.h1`
     font-size: 3.5rem;
 
     @media screen and (max-width: 820px){
-        font-size: 2.8rem;
-    }
-    @media screen and (max-width: 650px){
         font-size: 2.5rem;
     }
 `
 
-const Span = styled.p`
+const P = styled.p`
     font-size: 2rem;
     padding-top: 1.5rem;
 
     @media screen and (max-width: 820px){
-        font-size: 1.8rem;
-        padding-bottom: 2rem;
-    }
-    @media screen and (max-width: 650px){
         font-size: 1.5rem;
         line-height: 2rem;
         padding-top: 1rem;
@@ -115,9 +108,9 @@ const ImgBox = styled.div`
 
 const Img = styled.img`
     width: 80%;
-    margin-top: 10rem;
+    margin-top: 5rem;
 
     @media screen and (max-width: 820px){
-        margin-top: 0;
+        margin-top: 2rem;
     }
 `

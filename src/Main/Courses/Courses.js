@@ -7,7 +7,7 @@ function Courses() {
         <Container>
             <Header>Kursy<span style={{ color: "red" }}><b>:</b> </span></Header>
             <Course>
-                <CoursName>JavaScript od Podstaw do Eksperta</CoursName>
+                <Subtitle>JavaScript od Podstaw do Eksperta</Subtitle>
                 <CourseDescription>
                     <li>- tworzenie animowanej galerii obrazów z miniaturkami</li>
                     <li>- stworzenie pokazu slajdów</li>
@@ -24,7 +24,7 @@ function Courses() {
                 </Links>
             </Course>
             <Course>
-                <CoursName>HTML i CSS - poznaj podstawy i zacznij programować!</CoursName>
+                <Subtitle>HTML i CSS - poznaj podstawy i zacznij programować!</Subtitle>
                 <CourseDescription>
                     <li>- stworzenie własnej strony bazującej na HTML i CSS</li>
                     <li>- wykorzystywanie obecnie panujących standardów przygotowywania projektów</li>
@@ -85,7 +85,7 @@ const Course = styled.div`
         }
 `
 
-const CoursName = styled.h1`
+const Subtitle = styled.h1`
     font-size: 2.8rem;
     margin: 1rem;
     margin-bottom: 2.5rem;
@@ -109,7 +109,7 @@ const CourseDescription = styled.ul`
       padding-bottom: 0.5rem;
       line-height: 2.2rem;
 
-        @media screen and (max-width: 650px){
+        @media screen and (max-width: 820px){
             font-size: 1.5rem;
             line-height: 1.5rem;
             margin-bottom: 0.5rem;
@@ -120,7 +120,7 @@ const CourseDescription = styled.ul`
 
 const Links = styled.p`
     font-size: 1.8rem;
-    @media screen and (max-width: 650px){
+    @media screen and (max-width: 820px){
             font-size: 1.5rem;
         }
 `

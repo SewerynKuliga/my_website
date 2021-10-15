@@ -11,6 +11,7 @@ import Contact from './Contact/Contact';
 import MyInterests from './MyInterests/MyInterests';
 import Game from './Game/Game';
 import styled from 'styled-components';
+import Projects from './MyProjects/Projects';
 
 
 function Main() {
@@ -20,6 +21,7 @@ function Main() {
       <AboutMe />
       <Experience />
       <Skills />
+      <Projects />
       <Courses />
       <MyInterests />
       <Contact />
