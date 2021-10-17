@@ -1,15 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import Przechwytywanie from "../../Images/Przechwytywanie.PNG"
-
 
 function MoneyHeistLP() {
     return (
         <Container>
             <Subtitle>Landing page Money Heist</Subtitle>
             <Description>
-                &emsp;Zrobiony w HTML i CSS Landing Page serialu Money Heist - Dom z Papieru. Projekt pojawił się
-                w mojej głowie po obejrzeniu 5 sezonu tego serialu.<br /><br />
+                &emsp;Zrobiony w HTML i CSS Landing Page serialu Money Heist - Dom z Papieru. Pomysł na projekt pojawił się
+                w mojej głowie po obejrzeniu 5 sezonu tego serialu oraz zoabczeniu kilku Landing Page'y z nim związanych. <br />
+                <br /><br />
                 Kliknij w link poniżej aby ją zobaczyć:
             </Description>
             <LinkLP 

@@ -1,14 +1,24 @@
+import { Brightness1 } from '@material-ui/icons';
+import { alpha } from '@mui/system';
 import React from 'react';
 import styled from 'styled-components';
-
+import MusicNotes from "../Images/MusicNotes.jpg"
+import Guns2 from "../Images/Guns2.jpg"
+import Motorcycle from "../Images/Motorcycle.jpg"
+import Witcher3 from "../Images/Witcher3.jpg"
 
 function MyInterests() {
     return (
         <Container>
             <Header>Zainteresowania<span style={{ color: "red" }}><b>:</b> </span></Header>
 
-            <Interest>
-                <BGImage src="" alt="Zdjęcie motocykla" />
+            <Interest 
+            style={{
+                backgroundImage: `url(${Motorcycle})`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+            }}>
                 <Subtitle>Turystyka motocyklowa</Subtitle>
                 <Text>
                     &emsp;Do pewnych rzeczy człowiek musi dorosnąć - tak było i w tym wypadku. Motocyklizmem zaraził mnie mój
@@ -17,8 +27,14 @@ function MyInterests() {
                     przejazdu na jego motocyklu zdałem prawo jazdy na kat. A2 i kupiłem swojego pierwszego rumaka.
                 </Text>
             </Interest>
-            <Interest>
-                <BGImage src="" alt="Zdjęcie osoby z bronią" />
+            <Interest
+            style={{
+                backgroundImage: `url(${Guns2})`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+            }}>
+    
                 <Subtitle>Strzelectwo Sportowe</Subtitle>
                 <Text>
                     &emsp;Od zawsze wszelkiego rodzaju wozy bojowe, samoloty i prosta broń palna budziły we mnie pociąg do posiadania
@@ -28,12 +44,19 @@ function MyInterests() {
                     oraz stać się sportowcem na wysokim poziomie.
                 </Text>
             </Interest>
-            <Interest>
-                <BGImage src="" alt="Obraz pieciolinii z nutami" />
+            <Interest
+                style={{
+                    backgroundImage: `url(${MusicNotes})`,
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                }}
+            >
+
                 <Subtitle>Gra na instrumentach</Subtitle>
                 <Text>
                     &emsp;Muzyka gościła w mojej rodzinie od pokoleń. <br />
-                    Babcia na akordeonie, wujkowie - wirtuozi i artyści, począwczy od "liścia", przez gitarę po kontrabas, kuzynostwo
+                    Babcia na akordeonie, wujkowie - wirtuozi i artyści, począwszy od "liścia", przez gitarę po kontrabas, kuzynostwo
                     któremu dużo nie brakuje do perfekcji w swojej dziedzinie gry na gitarze i skrzypcach, aż do mnie. Początkowo był to
                     klarnet, ale z biegiem czasu perkusja, gitara zwykła oraz basowa, jak również harmonijka ustna go wyparły.
                     Niestety życie w bloku mocno ogranicza moją pasję z wiadomych powodów.
@@ -42,8 +65,14 @@ function MyInterests() {
                     Czy to podczas jazdy samochodem, czy przy gotowaniu, czy nawet przy pisaniu kodu do projektów.
                 </Text>
             </Interest>
-            <Interest>
-                <BGImage src="" alt="Zdjęcie ..." />
+            <Interest
+            style={{
+                backgroundImage: `url(${Witcher3})`,
+                backgroundPosition: '',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+            }}>
+
                 <Subtitle>Gry komputerowe</Subtitle>
                 <Text>
                     &emsp;Podstawówka miło kojarzy mi się z jednym komputerem na całą rodzinę i graniem z nią w Delux Ski Jump.
@@ -103,7 +132,8 @@ const Interest = styled.div`
 `
 
 const BGImage = styled.img`
-
+    background-size: contain;
+    background-repeat: no-repeat;
 `
 
 const Subtitle = styled.h1`

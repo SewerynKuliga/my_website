@@ -134,7 +134,7 @@ const SkillPlace = styled.div`
         display: block;
         margin: 2rem auto;
         padding: 1rem;
-        
+        width: auto;
     }
 `
 
@@ -159,8 +159,7 @@ const SkillPlaceGit = styled.div`
         width: 13rem;
         margin: 1rem 0rem 0rem 0rem;
         padding: 1rem;
-        
-        
+        width: auto;
+        margin: 3% 2% 0% 2%;
     }
-
 `
