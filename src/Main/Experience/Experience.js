@@ -42,6 +42,7 @@ const Container = styled.div`
     height: auto;
     margin-top: 1rem;
     background-color: #fff;
+    margin-left: 5%;
     margin-right: 5%;
     box-shadow: 0 0 1rem rgb(206,208,210);
     border-radius: 1rem;
