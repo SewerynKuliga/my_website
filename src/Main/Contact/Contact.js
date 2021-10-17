@@ -106,7 +106,7 @@ const Contacts = styled.div`
     @media screen and (max-width: 820px){
         margin: 2rem auto;
         padding: 1rem;
-        
+        width: auto;
     }
 `
 

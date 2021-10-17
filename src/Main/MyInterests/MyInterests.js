@@ -1,5 +1,3 @@
-import { Brightness1 } from '@material-ui/icons';
-import { alpha } from '@mui/system';
 import React from 'react';
 import styled from 'styled-components';
 import MusicNotes from "../Images/MusicNotes.jpg"
@@ -12,13 +10,13 @@ function MyInterests() {
         <Container>
             <Header>Zainteresowania<span style={{ color: "red" }}><b>:</b> </span></Header>
 
-            <Interest 
-            style={{
-                backgroundImage: `url(${Motorcycle})`,
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-            }}>
+            <Interest
+                style={{
+                    backgroundImage: `url(${Motorcycle})`,
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                }}>
                 <Subtitle>Turystyka motocyklowa</Subtitle>
                 <Text>
                     &emsp;Do pewnych rzeczy człowiek musi dorosnąć - tak było i w tym wypadku. Motocyklizmem zaraził mnie mój
@@ -28,13 +26,13 @@ function MyInterests() {
                 </Text>
             </Interest>
             <Interest
-            style={{
-                backgroundImage: `url(${Guns2})`,
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-            }}>
-    
+                style={{
+                    backgroundImage: `url(${Guns2})`,
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                }}>
+
                 <Subtitle>Strzelectwo Sportowe</Subtitle>
                 <Text>
                     &emsp;Od zawsze wszelkiego rodzaju wozy bojowe, samoloty i prosta broń palna budziły we mnie pociąg do posiadania
@@ -66,12 +64,12 @@ function MyInterests() {
                 </Text>
             </Interest>
             <Interest
-            style={{
-                backgroundImage: `url(${Witcher3})`,
-                backgroundPosition: '',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-            }}>
+                style={{
+                    backgroundImage: `url(${Witcher3})`,
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                }}>
 
                 <Subtitle>Gry komputerowe</Subtitle>
                 <Text>
@@ -79,7 +77,8 @@ function MyInterests() {
                     Ta kwadratowa grafika miała coś w sobie, coś co zrzeszało rodzinę i pozwalało na wspólne spędzanie czasu wzajemnie
                     sobie dogadując jak to powinno się "wyjść z progu". Późniejsza gra Heroes III również nie była tego pozbawiona.
                     Czasy się zmieniły, grafika poszła do przodu, a twórcy gier jak CD Project Red wypuszczają na świat perełkę
-                    Wiedźmina 3 - oczywiście wraz z dodatkami. Jestem wielkim fanem tej produckji.
+                    Wiedźmina 3 - oczywiście wraz z dodatkami. Jestem wielkim fanem tej produckji. I liczę, że każda kolejna 
+                    gra od CD Project Red będzie mnie miło zaskakiwać. <br />
                     Jeżeli chodzi o gry zespołowe, to aktualnie Liga Legend (League Of Legends) przoduje, ale Rocket Leauge też czasem
                     pojawia się na ekranie.
                 </Text>

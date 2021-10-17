@@ -21,7 +21,7 @@ function AboutMe() {
                     <br />
                     &emsp;Programowanie jest dla mnie czymś więcej niż ciekawym zajęciem - jest to moja ucieczka od rzeczywistości
                     do świata kolorowego kodu w Visual Studio Code oraz bycia dumnym z moich prac.
-                    Stanowisko Junior React Developera przyjął bym w tym momencie najchętniej, ponieważ zdaję
+                    Na stanowisku Junior React Developera odnalazłbym się najszybciej, ponieważ zdaję
                     sobie sprawę, że dużo nauki przede mną, ale solidne podstawy mam już wyuczone poprzez pobyt na stażu
                     jako Junior Frontend Developer, gdzie głównym narzędziem używanym przez nasz zespół był React oraz TypeScript.
                     <br />
@@ -109,7 +109,7 @@ const ImgBox = styled.div`
 const Img = styled.img`
     width: 80%;
     margin-top: 5rem;
-
+    max-width: 600px;
     @media screen and (max-width: 820px){
         margin-top: 2rem;
     }
