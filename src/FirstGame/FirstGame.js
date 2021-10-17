@@ -3,11 +3,7 @@ import React from 'react';
 function FirstGame() {
     return (
         <div>
-            <p>asdasdawdwa</p>
-            <p>asdasdawdwa</p>
-            <p>asdasdawdwa</p>
-            <p>asdasdawdwa</p>
-            <p>asdasdawdwa</p>
+            {/* bg stały, ludziki myślące po bokach na środku gra */}
         </div>
     )
 }

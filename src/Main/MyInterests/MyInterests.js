@@ -8,6 +8,7 @@ function MyInterests() {
             <Header>Zainteresowania<span style={{ color: "red" }}><b>:</b> </span></Header>
 
             <Interest>
+                <BGImage src="" alt="Zdjęcie motocykla" />
                 <Subtitle>Turystyka motocyklowa</Subtitle>
                 <Text>
                     &emsp;Do pewnych rzeczy człowiek musi dorosnąć - tak było i w tym wypadku. Motocyklizmem zaraził mnie mój
@@ -17,6 +18,7 @@ function MyInterests() {
                 </Text>
             </Interest>
             <Interest>
+                <BGImage src="" alt="Zdjęcie osoby z bronią" />
                 <Subtitle>Strzelectwo Sportowe</Subtitle>
                 <Text>
                     &emsp;Od zawsze wszelkiego rodzaju wozy bojowe, samoloty i prosta broń palna budziły we mnie pociąg do posiadania
@@ -27,6 +29,7 @@ function MyInterests() {
                 </Text>
             </Interest>
             <Interest>
+                <BGImage src="" alt="Obraz pieciolinii z nutami" />
                 <Subtitle>Gra na instrumentach</Subtitle>
                 <Text>
                     &emsp;Muzyka gościła w mojej rodzinie od pokoleń. <br />
@@ -40,6 +43,7 @@ function MyInterests() {
                 </Text>
             </Interest>
             <Interest>
+                <BGImage src="" alt="Zdjęcie ..." />
                 <Subtitle>Gry komputerowe</Subtitle>
                 <Text>
                     &emsp;Podstawówka miło kojarzy mi się z jednym komputerem na całą rodzinę i graniem z nią w Delux Ski Jump.
@@ -96,6 +100,10 @@ const Interest = styled.div`
         @media screen and (max-width: 820px){
             margin: 1rem 0rem 0rem 0.5rem;
         }
+`
+
+const BGImage = styled.img`
+
 `
 
 const Subtitle = styled.h1`

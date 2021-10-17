@@ -72,6 +72,7 @@ const CV = styled.div`
     flex: 0.2;
     margin: 0 auto;
     text-align: center;
+    
     @media screen and (max-width: 1500px){
         flex: 0.1;
     }

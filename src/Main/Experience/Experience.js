@@ -6,7 +6,7 @@ import LogoOakfusion from '../Images/LogoOakfusion.PNG'
 function Experience() {
     return (
         <Container >
-            <Header>Doświadczenie zawodowe <span style={{ color: "red" }}><b>:</b> </span></Header>
+            <Header>Doświadczenie zawodowe<span style={{ color: "red" }}><b>:</b> </span></Header>
             <OakfusionCompany>
                 <Img src={LogoOakfusion} alt="Logo Oakfusion" />
                 <Position>Junior Frontend Developer</Position><br />
@@ -42,7 +42,6 @@ const Container = styled.div`
     height: auto;
     margin-top: 1rem;
     background-color: #fff;
-    margin-left: 5%;
     margin-right: 5%;
     box-shadow: 0 0 1rem rgb(206,208,210);
     border-radius: 1rem;

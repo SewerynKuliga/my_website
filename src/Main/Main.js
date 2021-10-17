@@ -41,4 +41,9 @@ const Body = styled.div`
   height: auto;
   min-width: 320px;
   max-width: 2000px;
+
+  @media screen and (max-width: 820px){
+    margin-left: 4%;
+    margin-right: 2%;
+}
 `
