@@ -1,12 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
+import JSBackground from "../Images/JSBackground.jpg";
+import HTMLCSSBG from "../Images/HTMLCSSBG.jpg"
 
 
 function Courses() {
     return (
         <Container>
             <Header>Kursy<span style={{ color: "red" }}><b>:</b> </span></Header>
-            <Course>
+            <Course
+                style={{
+                    backgroundImage: `url(${JSBackground})`,
+                }}
+            >
                 <Subtitle>JavaScript od Podstaw do Eksperta</Subtitle>
                 <CourseDescription>
                     <li>- tworzenie animowanej galerii obrazów z miniaturkami</li>
@@ -23,7 +29,11 @@ function Courses() {
                     </Link>
                 </Links>
             </Course>
-            <Course>
+            <Course
+            style={{
+                backgroundImage: `url(${HTMLCSSBG})`,
+            }}
+            >
                 <Subtitle>HTML i CSS - poznaj podstawy i zacznij programować!</Subtitle>
                 <CourseDescription>
                     <li>- stworzenie własnej strony bazującej na HTML i CSS</li>
@@ -80,8 +90,15 @@ const Course = styled.div`
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 0 1rem rgb(206,208,210);
+    background:  right no-repeat;
+    
         @media screen and (max-width: 820px){
             margin: 1rem 0rem 0rem 0.5rem;
+            background: center no-repeat;
+        }
+        @media screen and (max-width: 450px){
+            background: top no-repeat;
+            background-position: 30% 50%;
         }
 `
 

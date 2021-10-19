@@ -4,7 +4,8 @@ import { GrReactjs } from 'react-icons/gr';
 import { SiTypescript, SiJavascript, SiGit, SiGitlab, SiGithub } from 'react-icons/si';
 import { AiFillHtml5, AiOutlineApi } from 'react-icons/ai';
 import { IoLogoCss3 } from 'react-icons/io';
-import { VscGithub } from 'react-icons/vsc'
+import { VscGithub } from 'react-icons/vsc';
+
 
 
 
@@ -123,6 +124,7 @@ const SkillPlace = styled.div`
     border-radius: 1rem;
     box-shadow: 0 0 1rem rgb(206,208,210);
     flex: 16.6;
+
     &:hover{
         box-shadow: 0 0.5rem 1rem rgba(0, 128, 251, 0.616);
     }

@@ -63,9 +63,9 @@ function MyInterests() {
                 <Text>
                     &emsp;Podstawówka miło kojarzy mi się z jednym komputerem na całą rodzinę i graniem z nią w Delux Ski Jump.
                     Ta kwadratowa grafika miała coś w sobie, coś co zrzeszało rodzinę i pozwalało na wspólne spędzanie czasu wzajemnie
-                    sobie dogadując jak to powinno się "wyjść z progu". Późniejsza gra Heroes III również nie była tego pozbawiona.
+                    sobie dogadując jak to powinno się "wyjść z progu". Późniejsza gra Heroes III również nie była pozbawiona porad współgraczy.
                     Czasy się zmieniły, grafika poszła do przodu, a twórcy gier jak CD Project Red wypuszczają na świat perełkę
-                    Wiedźmina 3 - oczywiście wraz z dodatkami. Jestem wielkim fanem tej produckji. I liczę, że każda kolejna 
+                    Wiedźmina 3 - oczywiście wraz z dodatkami. Jestem wielkim fanem tej produckji. I liczę, że każda kolejna
                     gra od CD Project Red będzie mnie miło zaskakiwać. <br />
                     Jeżeli chodzi o gry zespołowe, to aktualnie Liga Legend (League Of Legends) przoduje, ale Rocket Leauge też czasem
                     pojawia się na ekranie.

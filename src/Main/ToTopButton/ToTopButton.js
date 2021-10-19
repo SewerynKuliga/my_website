@@ -30,7 +30,7 @@ function ToTopButton() {
                 <Container
                     onClick={scrollToTop}
                 >
-                    <ArrowUpwardIcon style={{ fontSize: '4rem' }} />
+                    <ArrowUpwardIcon />
                     <p>up</p>
                 </Container>}
         </>
@@ -64,5 +64,27 @@ const Container = styled.div`
     }
     &:hover > p {
         visibility: visible;
+    }
+
+    svg{
+        font-size: 4rem;
+    }
+
+    @media screen and (max-width: 650px){
+        width: 3rem;
+    height: 4rem;
+    padding-top: 0.3rem;
+    bottom: 1.4rem;
+    right: 1rem;
+    
+    svg {
+        font-size: 3rem;
+    }
+    &:hover  {
+        color: red;
+        height: 5rem;
+        box-shadow: 0 0.5rem 1rem rgba(255, 0, 0, 0.616);
+    }
+
     }
 `
