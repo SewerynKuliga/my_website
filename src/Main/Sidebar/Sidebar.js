@@ -60,7 +60,7 @@ const Container = styled.div`
     height: 13rem;
     background-color: rgb(255,255,255);
     z-index: 999;
-    bottom: 10rem;
+    bottom: 5rem;
     box-shadow: 0 0 1rem rgb(206,208,210);
     border-radius: 0 0.5rem 0.5rem 0;
     transform: translateX(-100%);
@@ -89,11 +89,11 @@ const Icons = styled.div`
 
 const P = styled.p`
     font-size: 1.5rem;
-    transform: translateY(-110%) translateX(160%);
-    width: 2rem;
-    padding-left: 1rem;
+    transform: translateY(-105%) translateX(150%);
+    width: 1.8rem;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
     text-align: center;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.3);
     border-radius: 0rem 0.3rem 0.3rem 0rem;
 `
 

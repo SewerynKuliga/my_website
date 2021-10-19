@@ -13,9 +13,6 @@ function MyInterests() {
             <Interest
                 style={{
                     backgroundImage: `url(${Motorcycle})`,
-                    backgroundPosition: 'center',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
                 }}>
                 <Subtitle>Turystyka motocyklowa</Subtitle>
                 <Text>
@@ -28,9 +25,6 @@ function MyInterests() {
             <Interest
                 style={{
                     backgroundImage: `url(${Guns2})`,
-                    backgroundPosition: 'center',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
                 }}>
 
                 <Subtitle>Strzelectwo Sportowe</Subtitle>
@@ -45,9 +39,6 @@ function MyInterests() {
             <Interest
                 style={{
                     backgroundImage: `url(${MusicNotes})`,
-                    backgroundPosition: 'center',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
                 }}
             >
 
@@ -66,9 +57,6 @@ function MyInterests() {
             <Interest
                 style={{
                     backgroundImage: `url(${Witcher3})`,
-                    backgroundPosition: 'center',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
                 }}>
 
                 <Subtitle>Gry komputerowe</Subtitle>
@@ -125,14 +113,13 @@ const Interest = styled.div`
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 0 1rem rgb(206,208,210);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
         @media screen and (max-width: 820px){
             margin: 1rem 0rem 0rem 0.5rem;
         }
-`
-
-const BGImage = styled.img`
-    background-size: contain;
-    background-repeat: no-repeat;
 `
 
 const Subtitle = styled.h1`

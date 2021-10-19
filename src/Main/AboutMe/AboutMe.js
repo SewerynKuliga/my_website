@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import MyPhoto from "../Images/MyPhoto.PNG"
+import BackgroundBaW from "../Images/BackgroundBaW.jpg"
+import BackgroundBaW2 from "../Images/BackgroundBaW2.jpg"
 
 
 function AboutMe() {
@@ -31,7 +33,7 @@ function AboutMe() {
                     powstałych błędów.
                     <br />
                     &emsp;Moją największą wadą jest moja niewiedza do płynnego pisania kodu. Muszę czasami wrócić do danego zagadnienia i
-                    utrwalić go sobie. Staram się szukać odpowiedzi na moje pytanie w różny sposób. Staram się zawsze wybierać najprostsze ale zarazem
+                    utrwalić go sobie. Staram się szukać odpowiedzi na moje pytanie w różny sposób. Staram się zawsze wybierać najprostsze, zarazem
                     najlepsze rozwiązanie dla mojego problemu.
                     <br />
                     &emsp;Strona ta jest swego rodzaju wizytówką oraz moją motywacją
@@ -43,7 +45,6 @@ function AboutMe() {
             </Text>
             <ImgBox>
                 <Img src={MyPhoto} alt="Zdjęcie Seweryn Kuliga" />
-                <p>Zdjęcie zrobię lepsze. Obiecuję</p>
             </ImgBox>
 
         </Container>
@@ -57,7 +58,7 @@ const Container = styled.div`
     display: flex;
     width: auto;
     height: auto;
-    margin-top: 5.5rem;
+    margin-top: 4.5rem;
     background-color: #fff;
     margin-left: 5%;
     margin-right: 5%;
@@ -66,9 +67,11 @@ const Container = styled.div`
     padding: 4rem;
     text-align: center;
     line-height: 2rem;
+    background: url(${BackgroundBaW}) center no-repeat;
     @media screen and (max-width: 1200px){
         display: block;
         text-align: justify;
+        background: #fff url(${BackgroundBaW2}) bottom right no-repeat;
     }
     @media screen and (max-width: 820px){
         padding: 2rem;

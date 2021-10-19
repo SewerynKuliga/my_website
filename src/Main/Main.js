@@ -12,6 +12,7 @@ import MyInterests from './MyInterests/MyInterests';
 import Game from './Game/Game';
 import styled from 'styled-components';
 import Projects from './MyProjects/Projects';
+import Background from "./Images/Background.jpg"
 
 
 function Main() {
@@ -41,4 +42,5 @@ const Body = styled.div`
   height: auto;
   min-width: 320px;
   max-width: 2000px;
+  background-image: url(${Background});
 `

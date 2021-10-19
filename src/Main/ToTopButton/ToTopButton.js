@@ -25,11 +25,10 @@ function ToTopButton() {
     }, []);
 
     return (
-        < >
+        <>
             {isVisible &&
                 <Container
                     onClick={scrollToTop}
-                    // title="Przewiń stronę do góry"
                 >
                     <ArrowUpwardIcon style={{ fontSize: '4rem' }} />
                     <p>up</p>
@@ -51,7 +50,6 @@ const Container = styled.div`
     right: 2rem;
     cursor: pointer;
     border-radius: 0.8rem;
-    box-shadow: 0 0.7rem 1rem rgb(228,230,235);
     transition-duration: 0.5s;
     text-align: center;
     padding-top: 1rem;
