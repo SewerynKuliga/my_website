@@ -95,6 +95,10 @@ const P = styled.p`
     text-align: center;
     background-color: rgba(255,255,255,0.3);
     border-radius: 0rem 0.3rem 0.3rem 0rem;
+    @media screen and (max-width: 650px){
+        font-size: 1rem;
+        padding: 0.5rem 0.5rem 0.5rem 0.7rem;
+    }
 `
 
 // const FingerprintIconBot = withStyles({
