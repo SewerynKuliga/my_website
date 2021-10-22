@@ -61,21 +61,6 @@ const Description = styled.p`
         }
 `
 
-const Button = styled.a`
-    font-size: 2.5rem;
-    font-weight: bold;
-    padding: 1rem 2rem;
-    margin: 1rem 0rem 0rem 2rem;
-    background-color: rgb(255, 0, 11);
-    border-radius: 1rem;
-    cursor: pointer;
-
-    @media screen and (max-width: 650px){
-        font-size: 2rem;
-        padding: 0.5rem 0.5rem;
-    }
-`
-
 const LinkLP = styled.a`
     color: black;
     font-size: 1.8rem;
@@ -85,6 +70,7 @@ const LinkLP = styled.a`
     }
     @media screen and (max-width: 820px){
             font-size: 1.5rem;
+            margin-left: 2rem;
         }
 `
 
