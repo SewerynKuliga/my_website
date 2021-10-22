@@ -36,6 +36,10 @@ function AboutMe() {
                     utrwalić go sobie. Staram się szukać odpowiedzi na moje pytanie w różny sposób. Staram się zawsze wybierać najprostsze, zarazem
                     najlepsze rozwiązanie dla mojego problemu.
                     <br />
+                    &emsp;W przyszłości - gdy osiągnę już pewien stopień zaawansowania w kodowaniu - chcę pomagać młodym ludziom bez albo z małym
+                    doświadczeniem znaleźć swoją pierwszą pracę. Chcę, aby osoby które programowanie fascynuje i nie widzą się na innym stanowisku niż
+                    w IT miały we mnie wsparcie.
+                    <br />
                     &emsp;Strona ta jest swego rodzaju wizytówką oraz moją motywacją do dalszej pracy nad swoimi umiejętnościami programisty.
                     Robię wszytko, aby dotrzeć do szerszego grona odbiorcówco pozwoli mi rozwinąć skrzydła. Staram się rozwijać,
                     być na bieżąco z wszelkimi nowinkami technologicznymiśledząc kanały programistów JS-a i Reacta na Youtube.
