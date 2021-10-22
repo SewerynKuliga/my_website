@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import MoneyHeistLP from './MoneyHeistLandingPage/MoneyHeistLP';
+import LaCasaDePapelLP from './LaCasaDePapelLP/LaCasaDePapelLP'
 
 function Projects() {
     return (
         <Container>
             <Header>Wybrane projekty<span style={{ color: "red" }}><b>:</b> </span></Header>
-            <MoneyHeistLP />
+            <LaCasaDePapelLP />
         </Container>
     )
 }

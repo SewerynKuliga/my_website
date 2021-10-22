@@ -4,22 +4,22 @@ import styled from 'styled-components';
 function MoneyHeistLP() {
     return (
         <Container>
-            <Subtitle>Landing page Money Heist</Subtitle>
+            <Subtitle>Landing page La Casa De Papel</Subtitle>
             <Description>
-                &emsp;Zrobiony w HTML i CSS Landing Page serialu Money Heist - Dom z Papieru. Pomysł na projekt pojawił się
+                &emsp;Zrobiony w HTML i CSS Landing Page serialu La Casa De Papel - Dom z Papieru. Pomysł na projekt pojawił się
                 w mojej głowie po obejrzeniu 5 sezonu tego serialu oraz zoabczeniu kilku Landing Page'y z nim związanych. <br />
                 <br /><br />
                 Kliknij w link poniżej aby ją zobaczyć:
             </Description>
-            <LinkLP 
-                href="https://user-images.githubusercontent.com/81814080/137483672-feca3789-27c0-449c-b7a5-f29761b8cc40.png" 
-                target="_blank" 
+            <LinkLP
+                href="https://user-images.githubusercontent.com/81814080/138437427-735c1acb-1c96-46a0-8791-b3502c88ea51.png"
+                target="_blank"
             >
-                Landing Page Money Heist
+                Landing Page La Casa De Papel
             </LinkLP>
             <Links>Link:&nbsp;
                 <Link href="https://github.com/SewerynKuliga/landing_page_Money_Heist" target="_blank">
-                    Github - Landing Page Money Heist
+                    Github - Landing Page La Casa De Papel
                 </Link>
             </Links>
         </Container>
