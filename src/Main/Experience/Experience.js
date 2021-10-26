@@ -37,7 +37,7 @@ function Experience() {
 
 export default Experience;
 
-const Container = styled.div`
+const Container = styled.section`
     width: auto;
     height: auto;
     margin-top: 1rem;

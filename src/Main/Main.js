@@ -13,6 +13,7 @@ import Game from './Game/Game';
 import styled from 'styled-components';
 import Projects from './MyProjects/Projects';
 import Background from "./Images/Background.jpg"
+import Slide from './Slide/Slide'
 
 
 function Main() {
@@ -22,6 +23,7 @@ function Main() {
       <AboutMe />
       <Experience />
       <Skills />
+      <Slide />
       <Projects />
       <Courses />
       <MyInterests />

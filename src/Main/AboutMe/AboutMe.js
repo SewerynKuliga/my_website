@@ -56,7 +56,7 @@ function AboutMe() {
 
 export default AboutMe;
 
-const Container = styled.div`
+const Container = styled.section`
     position: relative;
     display: flex;
     width: auto;

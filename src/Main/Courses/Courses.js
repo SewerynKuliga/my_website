@@ -54,7 +54,7 @@ function Courses() {
 
 export default Courses;
 
-const Container = styled.div`
+const Container = styled.section`
     width: auto;
     height: auto;
     margin-top: 1rem;

@@ -72,7 +72,7 @@ function Skills() {
 
 export default Skills;
 
-const Container = styled.div`
+const Container = styled.section`
     width: auto;
     height: auto;
     margin-top: 1rem;

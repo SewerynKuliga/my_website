@@ -13,7 +13,7 @@ function Projects() {
 
 export default Projects;
 
-const Container = styled.div`
+const Container = styled.section`
     position: relative;
     width: auto;
     height: auto;
