@@ -83,10 +83,11 @@ const Container = styled.section`
     border-radius: 1rem;
     padding: 4rem;
 
-    @media screen and (max-width: 820px){
+    @media screen and (max-width: 880px){
         padding: 2rem;
         margin-left: 3%;
         margin-right: 3%;
+        display: none;
     }
     @media screen and (max-width: 650px){
         padding: 2rem;
@@ -112,7 +113,7 @@ const SkillsPlace = styled.div`
 const Box = styled.div`
     display: flex;
     @media screen and (max-width: 720px){
-        display: block;
+        display: none;
     }
 `
 
