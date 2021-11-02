@@ -51,9 +51,6 @@ const Container = styled.section`
         margin-left: 3%;
         margin-right: 3%;
     }
-    @media screen and (max-width: 650px){
-        padding: 2rem;
-    }
 `
 const Header = styled.h1`
     font-size: 3.5rem;
@@ -72,6 +69,9 @@ const FirstGame = styled.div`
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 0 1rem rgb(206,208,210);
+    @media screen and (max-width: 820px){
+            margin: 1rem 0rem 0rem 0.5rem;
+        }
 `
 const P = styled.p`
     font-size: 2rem;

@@ -84,10 +84,11 @@ const Container = styled.section`
     padding: 4rem;
 
     @media screen and (max-width: 880px){
-        display: block;
+        
         padding-bottom: 3.5rem;
     }
     @media screen and (max-width: 820px){
+        display: block;
         padding: 2rem;
         padding-bottom: 3rem;
         margin-left: 3%;

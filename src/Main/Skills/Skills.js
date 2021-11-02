@@ -83,7 +83,7 @@ const Container = styled.section`
     border-radius: 1rem;
     padding: 4rem;
 
-    @media screen and (max-width: 880px){
+    @media screen and (max-width: 820px){
         padding: 2rem;
         margin-left: 3%;
         margin-right: 3%;
