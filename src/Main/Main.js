@@ -12,8 +12,9 @@ import MyInterests from './MyInterests/MyInterests';
 import Game from './Game/Game';
 import styled from 'styled-components';
 import Projects from './MyProjects/Projects';
-import Background from "./Images/Background.jpg"
-import Slide from './Slide/Slide'
+import Background from "./Images/Background.jpg";
+import SkillsSlider from './Skills/SkillsSlider';
+import ContactSlider from "./Contact/ContactSlider"
 
 
 function Main() {
@@ -23,11 +24,12 @@ function Main() {
       <AboutMe />
       <Experience />
       <Skills />
-      <Slide />
+      <SkillsSlider />
       <Projects />
       <Courses />
       <MyInterests />
       <Contact />
+      <ContactSlider />
       <Game />
       <Navigation />
       <Sidebar />

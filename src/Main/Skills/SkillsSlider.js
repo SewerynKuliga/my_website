@@ -93,6 +93,7 @@ const Container = styled.section`
         margin-left: 3%;
         margin-right: 3%;
     }
+
 `
 
 const Header = styled.h1`
@@ -111,7 +112,7 @@ const SkillPlace = styled.div`
     width: auto;
     height: auto;
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 0rem;
     p {
         margin-top: 0.7rem;
         font-size: 2rem;

@@ -4,13 +4,23 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Link from '@mui/material/Link';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 function Contact() {
     return (
         <Container>
             <Header>Kontakt<span style={{ color: "red" }}><b>:</b> </span></Header>
-            <Box>
+            <Slider
+                speed={500}
+                slidesToShow={1}
+                slidesToScroll={1}
+                infinite={true}
+                dots={true}
+
+            >
                 <Contacts>
                     <Link
                         href="https://www.linkedin.com/in/sewerynkuliga/"
@@ -47,7 +57,7 @@ function Contact() {
                     </Link>
                     <Name>Facebook</Name>
                 </Contacts>
-            </Box>
+            </Slider>
         </Container>
     )
 }
@@ -58,20 +68,23 @@ const Container = styled.section`
     width: auto;
     height: auto;
     margin-top: 1rem;
+    display: none;
     background-color: #fff;
     margin-left: 5%;
     margin-right: 5%;
     box-shadow: 0 0 1rem rgb(206,208,210);
     border-radius: 1rem;
     padding: 4rem;
+    padding-bottom: 5rem;
+    @media screen and (max-width: 880px){
+        display: block;
+        padding-bottom: 3.5rem;
+    }
     @media screen and (max-width: 820px){
         padding: 2rem;
+        padding-bottom: 3rem;
         margin-left: 3%;
         margin-right: 3%;
-        display: none;
-    }
-    @media screen and (max-width: 650px){
-        padding: 2rem;
     }
 `
 
@@ -80,38 +93,27 @@ const Header = styled.h1`
     @media screen and (max-width: 1500px){
 
 }
-@media screen and (max-width: 820px){
-font-size: 2.8rem;
+    @media screen and (max-width: 820px){
+      font-size: 2.8rem;
 
-}
-@media screen and (max-width: 650px){
-font-size: 2.5rem;
-}
-`
-const Box = styled.div`
-    display: flex;
-    @media screen and (max-width: 720px){
-        display: block;
+    }
+    @media screen and (max-width: 650px){
+     font-size: 2.5rem;
     }
 `
+
 const Contacts = styled.div`
-    width: 15rem;
+    width: auto;
     height: auto;
-    margin: 2rem 3rem 0rem 3rem;
-    padding: 2rem;
-    border-radius: 1rem;
-    box-shadow: 0 0 1rem rgb(206,208,210);
+    padding:  2rem 0rem;
     text-align: center;
-    flex: 0.33;
-    
     @media screen and (max-width: 820px){
-        margin: 2rem auto;
-        padding: 1rem;
         width: auto;
     }
+    @media screen and (max-width: 390px){
+        height: 15rem;
+    }
 `
-
-
 
 const Name = styled.h1`
     font-size: 2.5rem;
