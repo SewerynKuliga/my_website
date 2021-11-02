@@ -41,8 +41,8 @@ function AboutMe() {
                     w IT miały we mnie wsparcie.
                     <br />
                     &emsp;Strona ta jest swego rodzaju wizytówką oraz moją motywacją do dalszej pracy nad swoimi umiejętnościami programisty.
-                    Robię wszytko, aby dotrzeć do szerszego grona odbiorcówco pozwoli mi rozwinąć skrzydła. Staram się rozwijać,
-                    być na bieżąco z wszelkimi nowinkami technologicznymiśledząc kanały programistów JS-a i Reacta na Youtube.
+                    Robię wszytko, aby dotrzeć do szerszego grona odbiorców, co pozwoli mi rozwinąć skrzydła. Staram się rozwijać,
+                    być na bieżąco z wszelkimi nowinkami technologicznymi śledząc kanały programistów JS-a i Reacta na Youtube.
                     Każdą wolną chwilę spędzam na udoskonalaniu siebie, oraz moich projektów.
                 </P>
             </Text>

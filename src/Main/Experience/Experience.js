@@ -52,9 +52,8 @@ const Container = styled.section`
     text-align: justify;
     padding: 2rem;
     margin-left: 3%;
-        margin-right: 3%;
+    margin-right: 3%;
 }
-
 `
 const Header = styled.h1`
     font-size: 3.5rem;
@@ -146,6 +145,7 @@ const ListOfDuties = styled.ul`
             font-size: 1.6rem;
             margin-left: 1rem;
             text-align: left;
+            line-height: 1.8rem;
         }
   }
 
