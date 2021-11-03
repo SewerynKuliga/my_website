@@ -11,7 +11,7 @@ function Experience() {
                 <Img src={LogoOakfusion} alt="Logo Oakfusion" />
                 <Position>Junior Frontend Developer</Position><br />
                 <Firm>Oakfusion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Staż</Firm><br />
-                <WorkTime>Wrzesień 2021 - obecnie</WorkTime>
+                <WorkTime>Wrzesień 2021 - Listopad 2021</WorkTime>
 
                 <HeaderDuties>Wykaz obowiązków:</HeaderDuties>
                 <ListOfDuties>

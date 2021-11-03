@@ -29,6 +29,7 @@ const Container = styled.div`
     height: 4.5rem;
     width: 100%;
     min-width: 320px;
+    max-width: 2000px;
     background-color: rgb(255,255,255);
     box-shadow: 0 0.7rem 1rem rgb(221,223,226);
     border-bottom: 1px solid rgb(221,223,226);

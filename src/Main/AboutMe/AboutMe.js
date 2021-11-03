@@ -70,7 +70,11 @@ const Container = styled.section`
     padding: 4rem;
     text-align: center;
     line-height: 2rem;
-    background: url(${BackgroundBaW}) center no-repeat;
+    background: #fff url(${BackgroundBaW}) right no-repeat;
+    @media screen and (max-width: 1550px){
+        background: #fff url(${BackgroundBaW}) center no-repeat;
+    }
+
     @media screen and (max-width: 1200px){
         display: block;
         text-align: justify;
