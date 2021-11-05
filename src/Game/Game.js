@@ -1,6 +1,6 @@
 import React from 'react';
 
-function FirstGame() {
+function Game() {
     return (
         <div>
             {/* bg stały, ludziki myślące po bokach na środku gra */}
@@ -8,4 +8,4 @@ function FirstGame() {
     )
 }
 
-export default FirstGame;
+export default Game;
