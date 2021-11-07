@@ -22,7 +22,6 @@ function MainViev() {
     }
   }, [butttonPopup]);
 
-
   useEffect(() => {
     fetch("http://localhost:8000/recommendations")
       .then((res) => {

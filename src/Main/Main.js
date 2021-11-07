@@ -30,7 +30,7 @@ function Main() {
       <MyInterests />
       <Contact />
       <ContactSlider />
-      <Game />
+      {/* <Game /> */}
       <Navigation />
       <Sidebar />
       <ToTopButton />

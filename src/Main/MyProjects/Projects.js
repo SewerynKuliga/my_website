@@ -13,7 +13,7 @@ function Projects() {
         </span>
       </Header>
       <LaCasaDePapelLP />
-      <MoviesSuggestion />
+      {/* <MoviesSuggestion /> */}
     </Container>
   );
 }
