@@ -1,38 +1,38 @@
 import React from "react";
 import styled from "styled-components";
 
-function MoviesSuggestion() {
+function StarWarsPlanetsEncyclopedia() {
   return (
     <Container>
-      <Subtitle>Movies Suggestion</Subtitle>
+      <Subtitle> Star Wars Planets Encyclopedia</Subtitle>
       <Description>
-        &emsp;Zrobiony w React projekt Single-Page-Application polegajacy na
-        przedstawieniu użytkownikowi proponowanych filmów z bazy danych.
-        Użytkownik będzie mógł dodać poszczególne tutuły do swojej biblioteki.
+        &emsp;Aplikacja podaje tytuły filmów i przyporządkowuje do nich planety,
+        na których działa się akcja w danym filmie. Opis planety zawiera jej
+        nazwę, okres rotacji, średnicę, klimat oraz populację. <br />
         <br />
         <br />
-        Kliknij w link poniżej aby ją zobaczyć:
+        Kliknij w link poniżej aby zobaczyć:
       </Description>
       <LinkLP
-        href="https://user-images.githubusercontent.com/81814080/140528228-33674f76-a691-42f2-a599-fab2993cd99b.mp4"
+        href="https://user-images.githubusercontent.com/81814080/141495990-83792ad6-28e6-459d-aaee-ce8e8d62418a.png"
         target="_blank"
       >
-        Movies Suggestion
+        Star Wars Planets Encyclopedia
       </LinkLP>
       <Links>
         Link:&nbsp;
         <Link
-          href="https://github.com/SewerynKuliga/tinder_for_movies"
+          href="https://github.com/SewerynKuliga/star_wars_planet_encyclopedia"
           target="_blank"
         >
-          Github - Movies Suggestion
+          Github - Star Wars Planets Encyclopedia
         </Link>
       </Links>
     </Container>
   );
 }
 
-export default MoviesSuggestion;
+export default StarWarsPlanetsEncyclopedia;
 
 const Container = styled.div`
   width: auto;
@@ -66,6 +66,7 @@ const Description = styled.p`
     font-size: 1.5rem;
   }
 `;
+
 const LinkLP = styled.a`
   color: black;
   font-size: 1.8rem;

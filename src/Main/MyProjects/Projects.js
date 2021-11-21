@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import LaCasaDePapelLP from "./LaCasaDePapelLP/LaCasaDePapelLP";
 import MoviesSuggestion from "./MoviesSuggestion/MoviesSuggestion";
+import StarWarsPlanetsEncyclopedia from "./StarWarsPlanetsEncyclopedia/StarWarsPlanetsEncyclopedia";
 
 function Projects() {
   return (
@@ -13,7 +14,8 @@ function Projects() {
         </span>
       </Header>
       <LaCasaDePapelLP />
-      {/* <MoviesSuggestion /> */}
+      <MoviesSuggestion />
+      <StarWarsPlanetsEncyclopedia />
     </Container>
   );
 }
@@ -31,7 +33,7 @@ const Container = styled.section`
   box-shadow: 0 0 1rem rgb(206, 208, 210);
   border-radius: 1rem;
   padding: 4rem;
-  line-height: 2rem;
+
   @media screen and (max-width: 1200px) {
     display: block;
     text-align: justify;
