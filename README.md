@@ -6,3 +6,4 @@ You can preview what tools I used to work, how it all looks from the code side a
 Link to the page below:
 
 ## www.sewerynkuliga.pl
+Not active
